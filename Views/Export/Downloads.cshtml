@@ -1,0 +1,156 @@
+﻿﻿@{
+    ViewData["Title"] = "Yükləmələr";
+    ViewData["Image"] = "/img/header-logo/download.png";
+}
+<header class="header-main">
+    <div class="container-fluid p-0">
+        <nav>
+@await Html.PartialAsync("../Shared/_HeaderMenu", ViewData)
+</nav>
+</div>
+</header>
+<main role="main">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="main-post">
+                    <table class="table link-table">
+                        <thead>
+                            <!-- <tr class="active-tr">
+
+                                <th  width="33%" class="active-link text-center" colspan="3" scope="col">Behs
+                                    edilenlerin sayina gore ust elaqeler </th>
+                                <th width="33%"class="text-center" colspan="4" scope="col">Abunəçilərin sayına görə
+                                    ən yaxşı müəlliflər</th>
+                                <th width="33%" class="text-center" colspan="3" scope="col">Nisanlamaq ucun en
+                                    yaxsi elaqeler</th>
+
+
+
+                            </tr> -->
+                            <tr class="text-center table-header">
+                                <!-- <th scope="col">#</th> -->
+                                <th scope="col"></th>
+                                <th class="text-center" scope="col">İstifadəçi</th>
+                                <th class="text-center" scope="col">Növ</th>
+                                <th class="text-center" scope="col">Yaradılış tarixi </th>
+                                <th class="text-center" scope="col">Dövr üçün </th>
+                                <th class="text-center" scope="col">Status </th>
+
+
+
+                            </tr>
+                        </thead>
+                        <tbody class="download-list">
+
+
+                             @*<tr>
+
+                                    <th style="width: 3%;">
+                                        <div>
+                                            <img class="table-user-image" width="30" height="30" src="https://via.placeholder.com/150" alt="">
+                                        </div>
+                                    </th>
+                                    <td class="text-center">
+                                        <p>Amine Esedova</p>
+                                    </td>
+                                    <td class="text-center">
+                                        <p>Şəxsi profil</p>
+                                    </td>
+                                    <td class="text-center"><p>102</p></td>
+                                    <td class="text-center"><p>2065</p></td>
+
+
+
+                                    <td class="text-center">
+
+                                        <img class="table-user-image" width="30" height="30" src="~/img/download.png" alt="">
+
+                                    </td>
+
+
+
+                                </tr>*@
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+@section Scripts{
+
+    <script>$.ajax({
+            url: `/Export/GetReportsInfo`,
+            type: 'POST',
+            success: function (data) {
+
+                data = JSON.parse(data)
+
+                for (var i = 0; i < data.length; i++) {
+                    var tr =`  <tr>
+
+                                <th style="width: 3%;">
+                                    <div>
+                                        <img class="table-user-image" width="30" height="30" src="https://via.placeholder.com/150" alt="">
+                                    </div>
+                                </th>
+                                <td class="text-center">
+                                    <p>${data[i].UserFullName}</p>
+                                </td>
+                                <td class="text-center">
+                                    <p>${data[i].ReportType}</p>
+                                </td>
+                                <td class="text-center"><p>${data[i].CreatedDate}</p></td>
+                                <td class="text-center"><p>${data[i].Period}</p></td>
+
+
+
+                              <td class="text-center">
+                                    <a class="send-report" href="/export/downloadsreport?filename=${data[i].ReportName}&reporturl=${data[i].ReportUrl}" data-url="${data[i].ReportUrl}" data-name="${data[i].ReportName }">
+                                        <img class="table-user-image" width="30" height="30" src="/img/download.png" alt=""></a>
+
+
+
+                                </td>
+
+
+
+                            </tr>`
+                    $(".download-list").append(tr)
+                }
+            },
+            error: function (resp) {
+                console.error(resp);
+            }
+        })
+
+        $('.download-list').on('click','.send-report',function () {
+
+
+            var data = new Object();
+            data.filename = $(this).data('name')
+            data.reporturl = $(this).data('url')
+
+
+            $.ajax({
+                url: `/Export/DownloadsReport`,
+                type: 'POST',
+                data:data,
+                success: function (data) {
+
+                },
+                error: function (resp) {
+                    console.error(resp);
+                }
+            })
+
+        })</script>
+
+
+
+
+}

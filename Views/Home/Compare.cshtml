@@ -1,0 +1,98 @@
+﻿@{
+    ViewData["Title"] = "Analitika";
+    ViewData["Image"] = "/img/header-logo/analitika.png";
+}
+<header class="header-main">
+    <div class="container-fluid p-0">
+        <nav>
+            @await Html.PartialAsync("../Shared/_HeaderMenu", ViewData)
+            @await Html.PartialAsync("../Shared/_BottomNavMenu", null)
+        </nav>
+    </div>
+</header>
+<div class="container-fluid p-0">
+    <div class="row no-gutters">
+        <div class="col-12">
+            <div class="tab-wrapper">
+                <ul id="tabs">
+
+                    <li><a id="tab1">Baxış</a></li>
+                    <li><a id="tab2">Teqlər</a></li>
+                    <li><a id="tab3">Açar</a></li>
+                    <li><a id="tab4">Aspektlər</a></li>
+                    <li><a id="tab5">Mənbələr </a></li>
+                    <li><a id="tab6">Demoqrafiya</a></li>
+                    <li><a id="tab7">Söz buludu</a></li>
+                    <li><a id="tab8">Vizual anlayışlar</a></li>
+
+
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+        <main>
+                    <div class="container-fluid p-0">
+                        <div class="tab-el" id="tab1C">
+                           <div class="row no-gutters">
+                               <div class="col-12">
+                                   <div class="main-post set-menu">
+                                    <div class="set-menu__header m-0 justify-content-between">
+                                        <span>
+                                          Müqayisə üçün mövzular
+                                        </span>
+                                        <div class="d-flex align-items-center">
+                                            <div class="current-diagram">
+                                                <span>ADY</span>
+                                            </div>
+                                            <button class="accept-changes"><img src="~/img/set-menu.png" alt=""><small>Tənzimlə </small> </button>
+                                        </div>
+                                    </div>
+                                   </div>
+                               </div>
+                           </div>
+                            <div class="row no-gutters">
+                                <!-- main-diagram -->
+                                <div class="col-12">
+                                    <div class="main-post">
+                                        <div class="diagram-name">
+                                            <p>Açar</p>
+                                        </div>
+                                        <div id="containerCompare" style="height: 400px; min-width: 310px"></div>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-6">
+                                    <div class="main-post">
+                                        <div class="diagram-name">
+                                            <p>Açar</p>
+                                        </div>
+                                        <div id="container-position" style="height:400px;"   ></div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                
+                                   
+                                    <div class="main-post">
+                                        <div class="diagram-name">
+                                            <p>Dialoqlarda paylaşın</p>
+                                        </div>
+                                        <div id="container-pie" style="height:400px;"   ></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        
+                        </div>
+                        <div class="tab-el" id="tab2C">
+                           
+                           some text
+                        
+                        </div>
+
+                    </div>
+
+                </main>

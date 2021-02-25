@@ -1,0 +1,128 @@
+.tab-wrapper {
+    background-color: $white;
+    padding: 30px 10px;
+    margin: 10px 0;
+}
+#tabs {
+    width: 100%;
+    height: 30px;
+    padding-right: 2px;
+    display: flex;
+    position: relative;
+    &:after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        bottom: 3px;
+        position: absolute;
+        background-color: $body-gray;
+    }
+}
+a {
+    cursor: pointer;
+}
+
+#tabs li {
+    list-style: none;
+
+    margin-right: 5px;
+    text-align: center;
+    outline: none;
+}
+
+#tabs li a {
+    color: #5988ff;
+    border-bottom: 2px solid $text-blue;
+    display: block;
+    background: #fff;
+    position: relative;
+    z-index: 99;
+    padding-bottom: 3px;
+    text-decoration: none;
+    outline: none;
+    font-size:14px;
+}
+
+#tabs li a.inactive {
+    color: #97aec8;
+    border-bottom: 2px solid transparent;
+
+    outline: none;
+}
+
+#tabs li a:hover,
+#tabs li a.inactive:hover {
+    color: #5685bc;
+    outline: none;
+}
+
+.tab-el {
+    clear: both;
+    width: 100%;
+    text-align: left;
+    // padding-top: 20px;
+}
+
+.tab-el h2 {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    color: #5685bc;
+}
+
+.tab-el p {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    font-size: small;
+}
+
+.tab-el ul {
+    margin-left: 25px;
+    font-size: small;
+    line-height: 1.4;
+    list-style-type: disc;
+}
+
+.tab-el li {
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+
+ul.tabs-sec{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    border:1px solid #ebebeb;
+    border-radius:5px;
+}
+ul.tabs-sec li{
+    background: none;
+    text-align: center;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    border-right: 1px solid #ebebeb;
+    margin: 0;
+    font-size: 17px;
+        color: #3e5e85;
+    cursor: pointer;
+}
+
+ul.tabs-sec li.current{
+    background-color: #f6f6f6;
+    color: #5988ff;
+}
+
+.tab-content{
+    display: none;
+   
+}
+
+.tab-content.current{
+    display: inherit;
+}

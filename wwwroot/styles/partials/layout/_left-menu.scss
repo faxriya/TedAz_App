@@ -1,0 +1,311 @@
+.left-menu {
+    z-index: 100;
+    background-image: linear-gradient($pColor, $sColor);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding: 20px 0px;
+    width: 230px;
+    transition: all 0.3s;
+    transform: translateX(-180px);
+    overflow: hidden;
+    transition-timing-function: linear;
+
+    &__logo {
+        margin-bottom: 20px;
+        margin-top: 10px;
+        transition: all 0.3s;
+        transform: translateX(139px);
+        transition-timing-function: linear;
+
+        a {
+            display: block;
+            transition: all 0.3s;
+            text-align: center;
+
+            img {
+                transition: all 0.3s;
+                max-height: 65px;
+                max-width: 200px;
+            }
+        }
+    }
+
+    &__menu {
+        display: flex;
+        transition: all 0.5s;
+
+        &>ul {
+            border: 2px solid rgba(255, 252, 252, 0.1);
+            border-left: none;
+            border-right: none;
+            max-height: calc(100vh - 160px);
+            min-height: calc(100vh - 160px);
+            overflow-y: auto;
+            transition: all 0.3s;
+            transform: translateX(180px);
+            transition-timing-function: linear;
+            min-width: 230px;
+            max-width: 230px;
+            scrollbar-width: none;
+            li {
+                display: block;
+                transition: all 0.3s;
+                a {
+                    color: white;
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    padding: 7px 15px;
+                    transition: all 0.3s;
+                    padding-left: 10px;
+                    i {
+                        font-size: 16px;
+                        width: 30px;
+                        height: 30px;
+                        text-align: center;
+                        line-height: 30px;
+                    }
+                    span {
+                        font-size: 12px;
+                        opacity: 0;
+                    }
+                    &:hover {
+                        background: darken($pColor, 10%);
+                    }
+                }
+            }
+
+            &>li>a {
+                padding-top: 3px;
+                padding-bottom: 3px;
+            }
+
+            .active>a {
+                background: $tColor;
+                &:hover {
+                    background: $tColor;
+                }
+            }
+
+            .drop {
+                a {
+                    position: relative;
+                    &::after {
+                        content: "\f107";
+                        font-family: "Font Awesome 5 Free";
+                        margin-left: 10px;
+                        margin-right: 0;
+                        right: 3px;
+                        top: 17px;
+                        transition: all 0.3s ease-in-out;
+                        font-size: 12px;
+                        font-weight: 900;
+                        color: white;
+                        transition: all 0.3s;
+                        position: absolute;
+                        top: 10px;
+                        right: 10px;
+                    }
+                }
+
+                .down {
+                    display: none;
+                    background: #00000029;
+                    ul {
+                        li {
+                            a {
+                                i {
+                                    font-size: 14px;
+                                }
+                                span {
+                                    font-size: 12px;
+                                    &::before {
+                                        content: "";
+                                        display: inline-block;
+                                        width: 10px;
+                                        height: 10px;
+                                        border-radius: 100%;
+                                        transform: translateX(-5px);
+                                        border: 3px solid white;
+                                        background: transparent;
+                                    }
+                                }
+
+                                &:hover {
+                                    background: darken($pColor, 10%);
+                                }
+                            }
+
+                            &.active {
+                                a {
+                                    background: darken($tColor, 18);
+                                }
+                            }
+                        }
+                    }
+
+                    a {
+                        padding-left: 40px;
+
+                        &::after {
+                            content: none;
+                        }
+                    }
+                }
+            }
+
+            .open>a::after {
+                content: "\f106";
+            }
+
+            &::-webkit-scrollbar {
+                width: 0px;
+            }
+        }
+    }
+
+    &__footer {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        transition: all 0.3s;
+
+        span {
+            opacity: 0;
+            font-size: 11px;
+            color: white;
+        }
+
+        .footerMenu {
+            transform: translateX(180px);
+            transition: all 0.3s;
+            transition-timing-function: linear;
+
+            ul {
+                li {
+                    margin-bottom: 5px;
+                    padding: 0px 5px;
+
+                    a {
+                        color: white;
+                        display: inline-block;
+                        // background: transparent;
+                        width: 100%;
+                        padding: 7px 5px;
+                        text-align: left;
+                        transition: all 0.3s;
+
+                        &:hover {
+                            // background: $tColor !important;
+                            background: darken($pColor, 10%) !important;
+                        }
+
+                        i {
+                            color: white;
+                            font-size: 16px;
+                            width: 30px;
+                            height: 30px;
+                            text-align: center;
+                            line-height: 30px;
+                        }
+
+                        span {
+                            font-size: 16px;
+                        }
+
+                        &.active {
+                            pointer-events: none;
+                            background: $tColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .fa-thumbtack {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: white;
+        transform: rotateZ(45deg);
+        cursor: pointer;
+        opacity: 0;
+        transition: all 0.3s;
+    }
+
+    &:hover {
+        transform: translateX(0px);
+        .left-menu__logo {
+            transform: translateX(0px);
+            display: block;
+            a {
+                img {
+                    margin-left: 0px;
+                }
+            }
+        }
+        .left-menu__menu>ul {
+            transform: translateX(0px);
+            span {
+                opacity: 1;
+            }
+        }
+
+        .left-menu__footer {
+            span {
+                opacity: 1;
+            }
+        }
+
+        .fa-thumbtack {
+            opacity: 1;
+        }
+    }
+}
+
+.open-left-menu {
+    .left-menu {
+        transform: translateX(0px);
+
+        &__logo {
+            transform: translateX(0px);
+            display: block !important;
+            a {
+                img {
+                    margin-left: 0px;
+                }
+            }
+        }
+
+        &__menu>ul {
+            transform: translateX(0px);
+
+            span {
+                opacity: 1 !important;
+            }
+        }
+        &__footer {
+            span {
+                opacity: 1 !important;
+            }
+        }
+        .fa-thumbtack {
+            opacity: 1;
+        }
+
+        .fa-thumbtack {
+            transform: translateZ(0);
+        }
+    }
+
+    main {
+        .container-fluid {
+            padding-left: 250px !important;
+        }
+    }
+
+}

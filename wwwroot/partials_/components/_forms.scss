@@ -1,0 +1,16 @@
+.sign-form__body{
+    form{
+        input{
+            border: none;
+            background-color: transparent;
+            padding:20px 0 ;
+            width: 100%;
+            font-family: Sero Regular;
+            outline: none;
+            &::placeholder{
+            color: $input-gray;
+            }
+        }
+        
+    }
+}

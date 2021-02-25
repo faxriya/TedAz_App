@@ -1,0 +1,522 @@
+{
+  "totalCount": 6389214,
+  "links": [
+    {
+      "totalEngagement": 31731,
+      "avgEngagement": 3.4599280340202814,
+      "key": "unicef.org/press-releases/unicef-statement-one-month-fighting-and-beyond-nagorno-karabakh",
+      "count": 9173,
+      "metricValue": 9173,
+      "sentiment": {
+        "values": [
+          {
+            "key": "negative",
+            "count": 5637,
+            "metricValue": 5637
+          },
+          {
+            "key": "neutral",
+            "count": 3531,
+            "metricValue": 3531
+          },
+          {
+            "key": "positive",
+            "count": 5,
+            "metricValue": 5
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 7681,
+      "avgEngagement": 1.3611554137869928,
+      "key": "youtube.com/watch?v=5G5Z1EiUMw0",
+      "count": 5649,
+      "metricValue": 5649,
+      "sentiment": {
+        "values": [
+          {
+            "key": "neutral",
+            "count": 5608,
+            "metricValue": 5608
+          },
+          {
+            "key": "negative",
+            "count": 37,
+            "metricValue": 37
+          },
+          {
+            "key": "positive",
+            "count": 4,
+            "metricValue": 4
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 10859,
+      "avgEngagement": 2.3803156510302497,
+      "key": "nytimes.com/2020/10/28/world/europe/azerbaijan-barda-armenia-rockets-karabakh.html",
+      "count": 4567,
+      "metricValue": 4567,
+      "sentiment": {
+        "values": [
+          {
+            "key": "neutral",
+            "count": 4497,
+            "metricValue": 4497
+          },
+          {
+            "key": "negative",
+            "count": 70,
+            "metricValue": 70
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 13979,
+      "avgEngagement": 4.1382474837181764,
+      "key": "newsweek.com/united-faith-future-karabakh-opinion-1544827",
+      "count": 3384,
+      "metricValue": 3384,
+      "sentiment": {
+        "values": [
+          {
+            "key": "neutral",
+            "count": 3289,
+            "metricValue": 3289
+          },
+          {
+            "key": "negative",
+            "count": 93,
+            "metricValue": 93
+          },
+          {
+            "key": "positive",
+            "count": 2,
+            "metricValue": 2
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 67198,
+      "avgEngagement": 22.09007232084155,
+      "key": "t.me/cebhexeberler",
+      "count": 3051,
+      "metricValue": 3051,
+      "sentiment": {
+        "values": [
+          {
+            "key": "neutral",
+            "count": 3007,
+            "metricValue": 3007
+          },
+          {
+            "key": "positive",
+            "count": 44,
+            "metricValue": 44
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 16508,
+      "avgEngagement": 6.5249011857707506,
+      "key": "anca.org/OSCE",
+      "count": 2530,
+      "metricValue": 2530,
+      "sentiment": {
+        "values": [
+          {
+            "key": "neutral",
+            "count": 2527,
+            "metricValue": 2527
+          },
+          {
+            "key": "negative",
+            "count": 2,
+            "metricValue": 2
+          },
+          {
+            "key": "positive",
+            "count": 1,
+            "metricValue": 1
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 1513,
+      "avgEngagement": 0.64137346333192036,
+      "key": "nytimes.com/2020/10/27/world/europe/armenia-azerbaijan-nagorno-karabakh.html?smid=tw-share",
+      "count": 2359,
+      "metricValue": 2359,
+      "sentiment": {
+        "values": [
+          {
+            "key": "negative",
+            "count": 1819,
+            "metricValue": 1819
+          },
+          {
+            "key": "neutral",
+            "count": 540,
+            "metricValue": 540
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 303,
+      "avgEngagement": 0.13791533909877104,
+      "key": "facebook.com/groups/1771162053114447",
+      "count": 2197,
+      "metricValue": 2197,
+      "sentiment": {
+        "values": [
+          {
+            "key": "neutral",
+            "count": 2197,
+            "metricValue": 2197
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 24786,
+      "avgEngagement": 12.411617426139209,
+      "key": "youtube.com/watch?v=Vo6rMHHC0-U",
+      "count": 1997,
+      "metricValue": 1997,
+      "sentiment": {
+        "values": [
+          {
+            "key": "neutral",
+            "count": 1983,
+            "metricValue": 1983
+          },
+          {
+            "key": "positive",
+            "count": 8,
+            "metricValue": 8
+          },
+          {
+            "key": "negative",
+            "count": 6,
+            "metricValue": 6
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 992,
+      "avgEngagement": 0.50689831374552885,
+      "key": "youtube.com/channel/UCSQSxUJb4zH1SEpzNerSLLg",
+      "count": 1958,
+      "metricValue": 1958,
+      "sentiment": {
+        "values": [
+          {
+            "key": "neutral",
+            "count": 1951,
+            "metricValue": 1951
+          },
+          {
+            "key": "negative",
+            "count": 5,
+            "metricValue": 5
+          },
+          {
+            "key": "positive",
+            "count": 2,
+            "metricValue": 2
+          }
+        ],
+        "otherCount": 0
+      }
+    }
+  ],
+  "hosts": [
+    {
+      "totalEngagement": 3303954,
+      "avgEngagement": 37.147704658144164,
+      "key": "youtube.com",
+      "count": 94930,
+      "metricValue": 94930,
+      "sentiment": {
+        "values": [
+          {
+            "key": "neutral",
+            "count": 77159,
+            "metricValue": 77159
+          },
+          {
+            "key": "negative",
+            "count": 14685,
+            "metricValue": 14685
+          },
+          {
+            "key": "positive",
+            "count": 3086,
+            "metricValue": 3086
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 638756,
+      "avgEngagement": 11.124277255311737,
+      "key": "youtu.be",
+      "count": 61353,
+      "metricValue": 61353,
+      "sentiment": {
+        "values": [
+          {
+            "key": "neutral",
+            "count": 48113,
+            "metricValue": 48113
+          },
+          {
+            "key": "negative",
+            "count": 11527,
+            "metricValue": 11527
+          },
+          {
+            "key": "positive",
+            "count": 1713,
+            "metricValue": 1713
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 2395402,
+      "avgEngagement": 69.68239469397254,
+      "key": "t.me",
+      "count": 46018,
+      "metricValue": 46018,
+      "sentiment": {
+        "values": [
+          {
+            "key": "neutral",
+            "count": 40070,
+            "metricValue": 40070
+          },
+          {
+            "key": "negative",
+            "count": 4240,
+            "metricValue": 4240
+          },
+          {
+            "key": "positive",
+            "count": 1708,
+            "metricValue": 1708
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 3244544,
+      "avgEngagement": 100.48138742644781,
+      "key": "facebook.com",
+      "count": 35950,
+      "metricValue": 35950,
+      "sentiment": {
+        "values": [
+          {
+            "key": "neutral",
+            "count": 29907,
+            "metricValue": 29907
+          },
+          {
+            "key": "negative",
+            "count": 4752,
+            "metricValue": 4752
+          },
+          {
+            "key": "positive",
+            "count": 1291,
+            "metricValue": 1291
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 609646,
+      "avgEngagement": 30.940215184734065,
+      "key": "bit.ly",
+      "count": 20331,
+      "metricValue": 20331,
+      "sentiment": {
+        "values": [
+          {
+            "key": "neutral",
+            "count": 16100,
+            "metricValue": 16100
+          },
+          {
+            "key": "negative",
+            "count": 3820,
+            "metricValue": 3820
+          },
+          {
+            "key": "positive",
+            "count": 411,
+            "metricValue": 411
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 431748,
+      "avgEngagement": 30.894311270125225,
+      "key": "ria.ru",
+      "count": 16514,
+      "metricValue": 16514,
+      "sentiment": {
+        "values": [
+          {
+            "key": "neutral",
+            "count": 14196,
+            "metricValue": 14196
+          },
+          {
+            "key": "negative",
+            "count": 1164,
+            "metricValue": 1164
+          },
+          {
+            "key": "positive",
+            "count": 1154,
+            "metricValue": 1154
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 37994,
+      "avgEngagement": 2.8650931302315059,
+      "key": "nytimes.com",
+      "count": 13363,
+      "metricValue": 13363,
+      "sentiment": {
+        "values": [
+          {
+            "key": "neutral",
+            "count": 11043,
+            "metricValue": 11043
+          },
+          {
+            "key": "negative",
+            "count": 2315,
+            "metricValue": 2315
+          },
+          {
+            "key": "positive",
+            "count": 5,
+            "metricValue": 5
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 2256086,
+      "avgEngagement": 274.36288459199807,
+      "key": "twitter.com",
+      "count": 11156,
+      "metricValue": 11156,
+      "sentiment": {
+        "values": [
+          {
+            "key": "neutral",
+            "count": 9116,
+            "metricValue": 9116
+          },
+          {
+            "key": "negative",
+            "count": 1646,
+            "metricValue": 1646
+          },
+          {
+            "key": "positive",
+            "count": 394,
+            "metricValue": 394
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 3173662,
+      "avgEngagement": 380.62628927800432,
+      "key": "instagram.com",
+      "count": 10593,
+      "metricValue": 10593,
+      "sentiment": {
+        "values": [
+          {
+            "key": "neutral",
+            "count": 9158,
+            "metricValue": 9158
+          },
+          {
+            "key": "negative",
+            "count": 1002,
+            "metricValue": 1002
+          },
+          {
+            "key": "positive",
+            "count": 433,
+            "metricValue": 433
+          }
+        ],
+        "otherCount": 0
+      }
+    },
+    {
+      "totalEngagement": 40731,
+      "avgEngagement": 4.1109204683084375,
+      "key": "reut.rs",
+      "count": 9909,
+      "metricValue": 9909,
+      "sentiment": {
+        "values": [
+          {
+            "key": "negative",
+            "count": 6196,
+            "metricValue": 6196
+          },
+          {
+            "key": "neutral",
+            "count": 3699,
+            "metricValue": 3699
+          },
+          {
+            "key": "positive",
+            "count": 14,
+            "metricValue": 14
+          }
+        ],
+        "otherCount": 0
+      }
+    }
+  ]
+}

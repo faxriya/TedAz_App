@@ -1,0 +1,43 @@
+.sign-form{
+    &__user-image{
+        border-radius: 100%;
+        border:2px solid  #5987ff;
+        img{
+            width: 100%;
+        }
+    }
+}
+.sign-social{
+    display:flex;
+    padding: 20px 0;
+    li{
+        border:none !important;
+        margin:0 5px
+    }
+}
+.accept-privacy.j-between{
+    div{
+        display:flex
+    }
+}
+.j-between{
+    display:flex !important;
+    justify-content:space-between;
+    align-items: center;
+}
+.j-center{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.br-right{
+    &:after{
+        content:"";
+        position: absolute;
+        height: 150%;
+        width:1px;
+        background-color: #7789D0;
+        right: 0;
+    }
+    
+}

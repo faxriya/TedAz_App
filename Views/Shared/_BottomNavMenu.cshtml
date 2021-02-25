@@ -1,0 +1,759 @@
+﻿﻿<div class="bottom-nav">
+    <div class="row no-gutters align-items-center">
+        <div class="col-2">
+            <div class="bottom-nav__date-time">
+                <div class="nav-frame">
+                    <div>  <button id="date-btn"> <img src="~/img/date.png" alt="datetime"></button></div>
+
+                    <input type="text" id="daterange">
+                </div>
+
+            </div>
+        </div>
+        <div class="col-0 col-lg-0">
+            <div class="bottom-nav__filter temp-hidden">
+                <div class="nav-frame">
+                    <div> <img src="~/img/filter.png" alt="datetime"></div>
+
+                    <ul class="filter-include d-flex">
+                        <li>
+                            <span>
+                                Içerir:
+                            </span>
+                            <div>
+                                Şəkil
+                                <button class="cancel">
+                                    <img src="~/img/cancel.png" alt="cancel">
+                                </button>
+                            </div>
+                        </li>
+                        <li>
+                            <span>
+                                Qeyd növü:
+                            </span>
+                            <div>
+                                Şərhlər
+                                <button class="cancel">
+                                    <img src="~/img/cancel.png" alt="cancel">
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-3 offset-3 j-center">
+            <div class="bottom-nav__pagination">
+                <ul id="pagination-wrapper" class="pagination"></ul>
+                 @*<ul>
+                        <li>
+                            <a href="#">
+                                <img src="~/img/arrLeft.png" alt="left">
+                            </a>
+                        </li>
+                        <li class="active-pagi">
+                            <a href="#">1</a>
+                        </li>
+                        <li>
+                            <a href="#">2</a>
+                        </li>
+                        <li>
+                            <a href="#">3</a>
+                        </li>
+                        <li>
+                            <a href="#">...</a>
+                        </li>
+                        <li class="active-last">
+                            <a href="#">156</a>
+                        </li>
+                        <li class="active-last">
+                            <a href="#">157</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/img/arrRight.png" alt="right">
+                            </a>
+                        </li>
+                    </ul>*@
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="bottom-nav__feautures">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="~/img/2-layers (8).png" alt="">
+                        </a>
+                        <div>
+                            <span> Metdfsufi</span>
+                        </div>
+                    </li>
+                    <li class="temp-hidden">
+                        <a href="#">
+                            <img src="~/img/5-layers (2).png" alt="">
+                        </a>
+                        <div>
+                            <span> Metdfsufi</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="report-show" href="#">
+                            <img src="~/img/2-layers (9).png" alt="">
+                        </a>
+                        <span class="report-drop">
+                            <ul class="d-flex flex-column">
+                                <li class="send-date inner-report" data-val="1">
+                                    <a href="#">demo</a>
+                                    <small>send date 1</small>
+                                </li>
+
+                                 @*temporary hidden*@
+
+                                 @*<li class="send-date inner-report" data-val="2">
+                                        <a href="#">demo</a>
+                                        <small>send date 2</small>
+                                    </li>
+                                    <li>
+                                        <a href="#">demo</a>
+                                        <small>100000 maksimum</small>
+                                    </li>*@
+                            </ul>
+                        </span>
+                        <span class="response-drop">
+                            <p class="show-download-response">text from control</p>
+                            <a asp-controller="Export" asp-action="Downloads" class="go-to-downloads">To downloads</a>
+                        </span>
+                        <div>
+                            <span> Metdfsufi</span>
+                        </div>
+                    </li>
+                    <li class="temp-hidden">
+                        <a href="#">
+                            <img src="~/img/3-layers (3).png" alt="">
+                        </a>
+                        <div>
+                            <span> Metdfsufi</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-nav-filter">
+        <div class="row no-gutters d-flex justify-content-between">
+
+            <div class="col-8">
+                <div class="filter-result d-flex">
+                    <div class="filter-not-choosen">
+
+
+
+                        <p>Filter secilmeyib</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-4 d-flex justify-content-end">
+                <button id="choose-filter" data-choose="false"
+                        class="bottom-nav-filter--accept">
+                    <i class="fas fa-filter"></i>Filter
+                    secmek
+                </button>
+                <div class="input-buttons">
+                    <button id="apply" class="bottom-nav-filter--accept ">
+                        <i class="fas fa-filter"></i>Tetbiq etmek
+                    </button>
+
+                    <button id="cancel-filter" class="bottom-nav-filter--decline ">
+                        Imtina
+                        etmek
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <div class="filter-show ">
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="flt-wrapper ">
+                        <ul id="filter">
+
+                            <li><a id="fl1">Ümumi</a></li>
+                            <li><a id="fl2">Mənbə</a></li>
+                            <li><a id="fl3">Müəlliflər</a></li>
+                            <li><a id="fl4">Coğrafiya</a></li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-12">
+
+                    <div class="fl-el" id="fl1C">
+                        <div class="row">
+                            <div class="fl-el__row">
+                                <h3>Tonalliq</h3>
+                                <div data-group='sentiment' class="fl-el__row__block">
+                                    <ul class="d-flex">
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='positive'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Pozitiv</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='neutral'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Neutural</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='negative'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Bad</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+
+
+
+                                    </ul>
+                                </div>
+                                <h3>Qeydin tipi</h3>
+                                <div data-group='note type' class="fl-el__row__block">
+                                    <ul class="d-flex">
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='post'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Post</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='comment'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Comment</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='repost'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Repost</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='repost again'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Repost again</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="fl-el" id="fl2C">
+
+                        <div class="row">
+                            <div class="fl-el__row">
+                                <h3>
+                                    Mənbənin tipi
+                                </h3>
+                                <div data-group='source-type' class="fl-el__row__block">
+                                    <ul class="d-flex">
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='social-network'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Sosial şəbəkə</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='kiv'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Kiv</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='reviews'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Rəylər</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='blog'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Bloq</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='messenger'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Mesencer</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+
+
+
+                                    </ul>
+                                </div>
+                                <h3>Mənbə</h3>
+                                <div data-group='source' class="fl-el__row__block">
+                                    <ul class="d-flex append-source">
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='post'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Post</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='comment'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Comment</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='repost'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Repost</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='repost again'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Repost again</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fl-el" id="fl3C">
+                        <div class="row">
+                            <div class="fl-el__row">
+                                <h3>
+                                    Demoqrafiya
+                                </h3>
+                                <div data-group='demography' class="fl-el__row__block">
+                                    <ul class="d-flex">
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='men'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Kişi</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='women'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Qadın</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='community'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>İcma</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="check-block">
+                                                <div data-tonal='not-specified'
+                                                     class="check-block-input d-flex align-items-baseline position-relative">
+                                                    <div class="d-flex choosen-click">
+                                                        <div class="checkbox-def">
+                                                            <span class="choosen"></span>
+                                                            <span class="un-choosen"></span>
+
+                                                        </div>
+                                                        <span>Qeyd olunmayıb</span>
+                                                    </div>
+                                                    <div class="un-choosen-click">
+                                                        <span>
+                                                            <div class="minus"></div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                                <h3>Müəlliflər</h3>
+                                <div data-group='authors' class="fl-el__row__block">
+                                    <ul class="d-flex append-authors">
+                                    </ul>
+                                </div>
+                                <h3>Paylaşım mənbəyi</h3>
+                                <div data-group='authors' class="fl-el__row__block">
+                                    <ul class="d-flex append-sharingSource">
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="fl-el" id="fl4C">d</div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts{
+    <script>
+        $.ajax({
+            url: `/Analytic/Data`,
+            type: 'POST',
+            data: { id: 4 },
+            success: function (data) {
+                data = JSON.parse(data);
+
+                for (let i = 0; i < data.length; i++) {
+                    var li = `
+                                            <li class="d-flex align-items-center justify-content-between">
+                                                <div class="dist-id" ">
+                                                    <p>${i + 1}.</p>
+                                                </div>
+
+                                            <div class="d-flex align-items-center">  <div>
+                                                   <img alt="twitter.com" class="vC4TLKEPzXJ_04VmGF6hI" title="twitter.com" src="https://www.google.com/s2/favicons?domain=help.${data[i].name}" width="14" height="14">
+                </div>
+                                                <div class="dist-name">
+
+                                                    <p> ${data[i].name}</p>
+                                                </div></div>
+                                                <div class="dist-count">
+                                                    <p> ${data[i].count}</p>
+                                                </div>
+                                            </li>
+                                        `
+                    $(".top-disdurb").append(li)
+                    if (i == 19) {
+                        break
+
+                    }
+                }
+
+
+
+            },
+            error: function (resp) {
+                console.error(resp);
+            }
+        })</script>
+ } 

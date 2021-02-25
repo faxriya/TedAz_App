@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Şəkillər";
+    ViewData["Image"] = "/img/header-logo/images.png";
+}
+<header class="header-main">
+    <div class="container-fluid p-0">
+        <nav>
+            @await Html.PartialAsync("../Shared/_HeaderMenu", ViewData)
+            @await Html.PartialAsync("../Shared/_BottomNavMenu", null)
+        </nav>
+    </div>
+</header>
+<main role="main">
+    <div class="container-fluid">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div id="mygallery">
+                    <a href="#">
+                        <img alt="Title 1" src="~/img/photos-tes/Bitmap (1).png" />
+                    </a>
+                    <a href="#">
+                        <img alt="Title 1" src="~/img/photos-tes/Bitmap (2).png" />
+                    </a>
+                    <a href="#">
+                        <img alt="Title 1" src="~/img/photos-tes/Bitmap (3).png" />
+                    </a>
+                    <a href="#">
+                        <img alt="Title 1" src="~/img/photos-tes/Bitmap (4).png" />
+                    </a>
+                    <a href="#">
+                        <img alt="Title 1" src="~/img/photos-tes/Bitmap (5).png" />
+                    </a>
+                    <a href="#">
+                        <img alt="Title 1" src="~/img/photos-tes/Bitmap (6).png" />
+                    </a>
+                    <a href="#">
+                        <img alt="Title 1" src="~/img/photos-tes/Bitmap (7).png" />
+                    </a>
+
+                    <!-- other images... -->
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

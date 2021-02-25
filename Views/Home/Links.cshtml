@@ -1,0 +1,127 @@
+﻿@{
+    ViewData["Title"] = "Linklər";
+    ViewData["Image"] = "/img/header-logo/links.png";
+}
+<header class="header-main">
+    <div class="container-fluid p-0">
+        <nav>
+
+@await Html.PartialAsync("../Shared/_HeaderMenu", ViewData)
+@await Html.PartialAsync("../Shared/_BottomNavMenu", null)
+</nav>
+</div>
+</header>
+<main role="main">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="tab-el" id="tab1C">
+                    <div class="main-post">
+                        <table class="table link-table">
+                            <thead>
+                                <tr class="active-tr temp-hidden">
+                                    <!-- <th scope="col">#</th> -->
+                                    <th class="active-link text-center" colspan="2" scope="col">
+                                        Behs
+                                        edilenlerin sayina gore ust elaqeler
+                                    </th>
+                                    <th class="text-center" colspan="3" scope="col">
+                                        Nisanlamaq ucun en
+                                        yaxsi elaqeler
+                                    </th>
+
+
+                                </tr>
+                                <tr class="text-center table-header">
+                                    <!-- <th scope="col">#</th> -->
+                                    <th style="width: 50%;" colspan="2" scope="col">Link</th>
+                                    <th style="width: 8%;" scope="col">Iştirak edir</th>
+                                    <th style="width: 8%;" scope="col">Qeyd etmək</th>
+                                    <th class="temp-hidden" style="width: 34%;" scope="col">Aç ar</th>
+
+                                </tr>
+                            </thead>
+                            <tbody id="links-append">
+                                 @*<tr>
+                                        <th class="text-center" style="width: 3%;">
+                                            <div>
+                                                <img alt="twitter.com" class="vC4TLKEPzXJ_04VmGF6hI" title="twitter.com" src="https://www.google.com/s2/favicons?domain=help.twitter.com" width="14" height="14">
+                                            </div>
+                                        </th>
+                                        <td><p>lorem50</p></td>
+                                        <td>
+                                            <p>lorem50</p>
+                                        </td>
+                                        <td><p>lorem50</p></td>
+                                        <td class="temp-hidden">
+                                            <div class="progress">
+                                                <div class="progress-bar " role="progressbar" style="width: 60%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </td>
+
+
+
+                                    </tr>*@
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12">
+                <div class="tab-el" id="tab2C">2Some content</div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+@section Scripts{
+
+    <script>
+    function getUrl(url) {
+            reg = new RegExp(/^(?:https?:)?(?:\/\/)?(?:[^@@\n]+@@)?(?:www\.)?([^:\/\n]+)/im)
+            var match = reg.exec(url);
+            return match[1];
+        }
+        $.ajax({
+            url: `/analytic/Links`,
+            type: 'POST',
+            success: function (data) {
+                data = JSON.parse(data);
+                console.log("check links")
+                for (let i = 0; i < data.length; i++) {
+                    var tr = `   <tr>
+                                        <th class="text-center" style="width: 3%;">
+                                            <div>
+                                                <img alt="twitter.com" class="vC4TLKEPzXJ_04VmGF6hI" title="twitter.com" src="https://www.google.com/s2/favicons?domain=help.${getUrl(data[i].name)}" width="14" height="14">
+                                            </div>
+                                        </th>
+                                        <td><p>${data[i].name}</p></td>
+                                        <td>
+                                            <p>${data[i].totalEngagement}</p>
+                                        </td>
+                                        <td><p>${data[i].count}</p></td>
+                                        <td class="temp-hidden">
+                                            <div class="progress">
+                                                <div class="progress-bar " role="progressbar" style="width: 60%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </td>
+
+
+
+                                    </tr>`
+
+                    $("#links-append").append(tr)
+                }
+            },
+            error: function (resp) {
+                console.error(resp);
+            }
+        })
+    </script>
+
+
+}

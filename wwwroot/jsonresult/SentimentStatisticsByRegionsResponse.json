@@ -1,0 +1,1805 @@
+{
+  "totalCount": 6388879,
+  "regions": [
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 746476
+        },
+        {
+          "name": "Negative",
+          "count": 122142
+        },
+        {
+          "name": "Positive",
+          "count": 34376
+        }
+      ],
+      "name": "Бакинская Администрация",
+      "count": 902994
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 237616
+        },
+        {
+          "name": "Negative",
+          "count": 74777
+        },
+        {
+          "name": "Positive",
+          "count": 15111
+        }
+      ],
+      "name": "Москва",
+      "count": 327504
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 207910
+        },
+        {
+          "name": "Negative",
+          "count": 69455
+        },
+        {
+          "name": "Positive",
+          "count": 9089
+        }
+      ],
+      "name": "Ереван",
+      "count": 286454
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 57879
+        },
+        {
+          "name": "Negative",
+          "count": 16875
+        },
+        {
+          "name": "Positive",
+          "count": 3584
+        }
+      ],
+      "name": "Санкт-Петербург",
+      "count": 78338
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 36261
+        },
+        {
+          "name": "Negative",
+          "count": 10498
+        },
+        {
+          "name": "Positive",
+          "count": 1847
+        }
+      ],
+      "name": "Киев",
+      "count": 48606
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 39717
+        },
+        {
+          "name": "Negative",
+          "count": 4566
+        },
+        {
+          "name": "Positive",
+          "count": 1312
+        }
+      ],
+      "name": "Сумгаитская Администрация",
+      "count": 45595
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 31570
+        },
+        {
+          "name": "Negative",
+          "count": 10433
+        },
+        {
+          "name": "Positive",
+          "count": 1037
+        }
+      ],
+      "name": "Калифорния",
+      "count": 43040
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 30847
+        },
+        {
+          "name": "Negative",
+          "count": 4282
+        },
+        {
+          "name": "Positive",
+          "count": 995
+        }
+      ],
+      "name": "Стамбул",
+      "count": 36124
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 23029
+        },
+        {
+          "name": "Negative",
+          "count": 7724
+        },
+        {
+          "name": "Positive",
+          "count": 1298
+        }
+      ],
+      "name": "Краснодарский край",
+      "count": 32051
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 22153
+        },
+        {
+          "name": "Negative",
+          "count": 8399
+        },
+        {
+          "name": "Positive",
+          "count": 969
+        }
+      ],
+      "name": "Англия",
+      "count": 31521
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 23927
+        },
+        {
+          "name": "Negative",
+          "count": 6031
+        },
+        {
+          "name": "Positive",
+          "count": 1211
+        }
+      ],
+      "name": "Тбилиси",
+      "count": 31169
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 21445
+        },
+        {
+          "name": "Negative",
+          "count": 2865
+        },
+        {
+          "name": "Positive",
+          "count": 882
+        }
+      ],
+      "name": "Гянджинская Администрация",
+      "count": 25192
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 18263
+        },
+        {
+          "name": "Negative",
+          "count": 3025
+        },
+        {
+          "name": "Positive",
+          "count": 906
+        }
+      ],
+      "name": "Ituri",
+      "count": 22194
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 17380
+        },
+        {
+          "name": "Negative",
+          "count": 3193
+        },
+        {
+          "name": "Positive",
+          "count": 959
+        }
+      ],
+      "name": "Bas-Uele",
+      "count": 21532
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 16602
+        },
+        {
+          "name": "Negative",
+          "count": 2420
+        },
+        {
+          "name": "Positive",
+          "count": 1122
+        }
+      ],
+      "name": "Аскеранский район",
+      "count": 20144
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 14575
+        },
+        {
+          "name": "Negative",
+          "count": 4531
+        },
+        {
+          "name": "Positive",
+          "count": 842
+        }
+      ],
+      "name": "Ростовская область",
+      "count": 19948
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 12668
+        },
+        {
+          "name": "Negative",
+          "count": 3793
+        },
+        {
+          "name": "Positive",
+          "count": 541
+        }
+      ],
+      "name": "Ширакская область",
+      "count": 17002
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 12888
+        },
+        {
+          "name": "Negative",
+          "count": 3544
+        },
+        {
+          "name": "Positive",
+          "count": 509
+        }
+      ],
+      "name": "Армавирская область",
+      "count": 16941
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 11683
+        },
+        {
+          "name": "Negative",
+          "count": 3741
+        },
+        {
+          "name": "Positive",
+          "count": 637
+        }
+      ],
+      "name": "Московская область",
+      "count": 16061
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 12235
+        },
+        {
+          "name": "Negative",
+          "count": 3079
+        },
+        {
+          "name": "Positive",
+          "count": 647
+        }
+      ],
+      "name": "Донецкая область",
+      "count": 15961
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 12578
+        },
+        {
+          "name": "Negative",
+          "count": 2803
+        },
+        {
+          "name": "Positive",
+          "count": 276
+        }
+      ],
+      "name": "Иль-де-Франс",
+      "count": 15657
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 11256
+        },
+        {
+          "name": "Negative",
+          "count": 3566
+        },
+        {
+          "name": "Positive",
+          "count": 556
+        }
+      ],
+      "name": "Нью-Йорк",
+      "count": 15378
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 11224
+        },
+        {
+          "name": "Negative",
+          "count": 3522
+        },
+        {
+          "name": "Positive",
+          "count": 613
+        }
+      ],
+      "name": "Свердловская область",
+      "count": 15359
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 10618
+        },
+        {
+          "name": "Negative",
+          "count": 3231
+        },
+        {
+          "name": "Positive",
+          "count": 621
+        }
+      ],
+      "name": "Самарская область",
+      "count": 14470
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 10151
+        },
+        {
+          "name": "Negative",
+          "count": 3389
+        },
+        {
+          "name": "Positive",
+          "count": 530
+        }
+      ],
+      "name": "Одесская область",
+      "count": 14070
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 9957
+        },
+        {
+          "name": "Negative",
+          "count": 3258
+        },
+        {
+          "name": "Positive",
+          "count": 403
+        }
+      ],
+      "name": "Лори",
+      "count": 13618
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 9479
+        },
+        {
+          "name": "Negative",
+          "count": 2957
+        },
+        {
+          "name": "Positive",
+          "count": 538
+        }
+      ],
+      "name": "Котайк",
+      "count": 12974
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 9450
+        },
+        {
+          "name": "Negative",
+          "count": 2737
+        },
+        {
+          "name": "Positive",
+          "count": 516
+        }
+      ],
+      "name": "Харьковская область",
+      "count": 12703
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 7847
+        },
+        {
+          "name": "Negative",
+          "count": 2389
+        },
+        {
+          "name": "Positive",
+          "count": 613
+        }
+      ],
+      "name": "Татарстан",
+      "count": 10849
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 7621
+        },
+        {
+          "name": "Negative",
+          "count": 2511
+        },
+        {
+          "name": "Positive",
+          "count": 433
+        }
+      ],
+      "name": "Ставропольский край",
+      "count": 10565
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 7820
+        },
+        {
+          "name": "Negative",
+          "count": 2270
+        },
+        {
+          "name": "Positive",
+          "count": 465
+        }
+      ],
+      "name": "Новосибирская область",
+      "count": 10555
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 7282
+        },
+        {
+          "name": "Negative",
+          "count": 2251
+        },
+        {
+          "name": "Positive",
+          "count": 439
+        }
+      ],
+      "name": "Красноярский край",
+      "count": 9972
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 7157
+        },
+        {
+          "name": "Negative",
+          "count": 2247
+        },
+        {
+          "name": "Positive",
+          "count": 419
+        }
+      ],
+      "name": "Днепропетровская область",
+      "count": 9823
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 7096
+        },
+        {
+          "name": "Negative",
+          "count": 2129
+        },
+        {
+          "name": "Positive",
+          "count": 431
+        }
+      ],
+      "name": "Нижегородская область",
+      "count": 9656
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 6909
+        },
+        {
+          "name": "Negative",
+          "count": 2314
+        },
+        {
+          "name": "Positive",
+          "count": 347
+        }
+      ],
+      "name": "Волгоградская область",
+      "count": 9570
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 8692
+        },
+        {
+          "name": "Negative",
+          "count": 510
+        },
+        {
+          "name": "Positive",
+          "count": 262
+        }
+      ],
+      "name": "Ленкоранская Администрация",
+      "count": 9464
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 6855
+        },
+        {
+          "name": "Negative",
+          "count": 1670
+        },
+        {
+          "name": "Positive",
+          "count": 393
+        }
+      ],
+      "name": "Северный Рейн-Вестфалия",
+      "count": 8918
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 6181
+        },
+        {
+          "name": "Negative",
+          "count": 2149
+        },
+        {
+          "name": "Positive",
+          "count": 532
+        }
+      ],
+      "name": "Алматы",
+      "count": 8862
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 7720
+        },
+        {
+          "name": "Negative",
+          "count": 862
+        },
+        {
+          "name": "Positive",
+          "count": 212
+        }
+      ],
+      "name": "Анкара",
+      "count": 8794
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 7706
+        },
+        {
+          "name": "Negative",
+          "count": 765
+        },
+        {
+          "name": "Positive",
+          "count": 280
+        }
+      ],
+      "name": "Апшеронский район",
+      "count": 8751
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 6210
+        },
+        {
+          "name": "Negative",
+          "count": 1875
+        },
+        {
+          "name": "Positive",
+          "count": 403
+        }
+      ],
+      "name": "Автономная Республика Крым",
+      "count": 8488
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 6165
+        },
+        {
+          "name": "Negative",
+          "count": 2058
+        },
+        {
+          "name": "Positive",
+          "count": 264
+        }
+      ],
+      "name": "Онтарио",
+      "count": 8487
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 6061
+        },
+        {
+          "name": "Negative",
+          "count": 2032
+        },
+        {
+          "name": "Positive",
+          "count": 353
+        }
+      ],
+      "name": "Челябинская область",
+      "count": 8446
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 6030
+        },
+        {
+          "name": "Negative",
+          "count": 1536
+        },
+        {
+          "name": "Positive",
+          "count": 250
+        }
+      ],
+      "name": "Берлин",
+      "count": 7816
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 6110
+        },
+        {
+          "name": "Negative",
+          "count": 908
+        },
+        {
+          "name": "Positive",
+          "count": 317
+        }
+      ],
+      "name": "Гадрутский район",
+      "count": 7335
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 5406
+        },
+        {
+          "name": "Negative",
+          "count": 1562
+        },
+        {
+          "name": "Positive",
+          "count": 340
+        }
+      ],
+      "name": "Ханты-Мансийский автономный округ - Югра",
+      "count": 7308
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 5255
+        },
+        {
+          "name": "Negative",
+          "count": 1745
+        },
+        {
+          "name": "Positive",
+          "count": 276
+        }
+      ],
+      "name": "Минск",
+      "count": 7276
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 5143
+        },
+        {
+          "name": "Negative",
+          "count": 1653
+        },
+        {
+          "name": "Positive",
+          "count": 313
+        }
+      ],
+      "name": "Башкортостан",
+      "count": 7109
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 5053
+        },
+        {
+          "name": "Negative",
+          "count": 1693
+        },
+        {
+          "name": "Positive",
+          "count": 359
+        }
+      ],
+      "name": "Ташкент",
+      "count": 7105
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 5283
+        },
+        {
+          "name": "Negative",
+          "count": 1451
+        },
+        {
+          "name": "Positive",
+          "count": 332
+        }
+      ],
+      "name": "Тюменская область",
+      "count": 7066
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 6317
+        },
+        {
+          "name": "Negative",
+          "count": 496
+        },
+        {
+          "name": "Positive",
+          "count": 166
+        }
+      ],
+      "name": "Нахичевань",
+      "count": 6979
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 5001
+        },
+        {
+          "name": "Negative",
+          "count": 1715
+        },
+        {
+          "name": "Positive",
+          "count": 242
+        }
+      ],
+      "name": "Воронежская область",
+      "count": 6958
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 4985
+        },
+        {
+          "name": "Negative",
+          "count": 1671
+        },
+        {
+          "name": "Positive",
+          "count": 291
+        }
+      ],
+      "name": "Саратовская область",
+      "count": 6947
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 5367
+        },
+        {
+          "name": "Negative",
+          "count": 1323
+        },
+        {
+          "name": "Positive",
+          "count": 230
+        }
+      ],
+      "name": "Львовская область",
+      "count": 6920
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 6076
+        },
+        {
+          "name": "Negative",
+          "count": 527
+        },
+        {
+          "name": "Positive",
+          "count": 195
+        }
+      ],
+      "name": "Шекинская Администрация",
+      "count": 6798
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 5108
+        },
+        {
+          "name": "Negative",
+          "count": 1436
+        },
+        {
+          "name": "Positive",
+          "count": 223
+        }
+      ],
+      "name": "Сюникская область",
+      "count": 6767
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 4765
+        },
+        {
+          "name": "Negative",
+          "count": 1569
+        },
+        {
+          "name": "Positive",
+          "count": 283
+        }
+      ],
+      "name": "Калининградская область",
+      "count": 6617
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 5643
+        },
+        {
+          "name": "Negative",
+          "count": 752
+        },
+        {
+          "name": "Positive",
+          "count": 213
+        }
+      ],
+      "name": "Нижняя Картлия",
+      "count": 6608
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 4600
+        },
+        {
+          "name": "Negative",
+          "count": 1466
+        },
+        {
+          "name": "Positive",
+          "count": 245
+        }
+      ],
+      "name": "Калужская область",
+      "count": 6311
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 4546
+        },
+        {
+          "name": "Negative",
+          "count": 1604
+        },
+        {
+          "name": "Positive",
+          "count": 154
+        }
+      ],
+      "name": "Округ Колумбия",
+      "count": 6304
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 4479
+        },
+        {
+          "name": "Negative",
+          "count": 1417
+        },
+        {
+          "name": "Positive",
+          "count": 317
+        }
+      ],
+      "name": "Иркутская область",
+      "count": 6213
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 4531
+        },
+        {
+          "name": "Negative",
+          "count": 1368
+        },
+        {
+          "name": "Positive",
+          "count": 253
+        }
+      ],
+      "name": "Пермский край",
+      "count": 6152
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 4994
+        },
+        {
+          "name": "Negative",
+          "count": 638
+        },
+        {
+          "name": "Positive",
+          "count": 161
+        }
+      ],
+      "name": "Мингечаурская Администрация",
+      "count": 5793
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 4300
+        },
+        {
+          "name": "Negative",
+          "count": 1249
+        },
+        {
+          "name": "Positive",
+          "count": 192
+        }
+      ],
+      "name": "Бавария",
+      "count": 5741
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 4254
+        },
+        {
+          "name": "Negative",
+          "count": 1255
+        },
+        {
+          "name": "Positive",
+          "count": 109
+        }
+      ],
+      "name": "Каталония",
+      "count": 5618
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3960
+        },
+        {
+          "name": "Negative",
+          "count": 1290
+        },
+        {
+          "name": "Positive",
+          "count": 271
+        }
+      ],
+      "name": "Дагестан",
+      "count": 5521
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3883
+        },
+        {
+          "name": "Negative",
+          "count": 1112
+        },
+        {
+          "name": "Positive",
+          "count": 178
+        }
+      ],
+      "name": "Гехаркуникская область",
+      "count": 5173
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 4696
+        },
+        {
+          "name": "Negative",
+          "count": 236
+        },
+        {
+          "name": "Positive",
+          "count": 136
+        }
+      ],
+      "name": "Масаллинский район",
+      "count": 5068
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3597
+        },
+        {
+          "name": "Negative",
+          "count": 1176
+        },
+        {
+          "name": "Positive",
+          "count": 269
+        }
+      ],
+      "name": "Приморский край",
+      "count": 5042
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3609
+        },
+        {
+          "name": "Negative",
+          "count": 1171
+        },
+        {
+          "name": "Positive",
+          "count": 237
+        }
+      ],
+      "name": "Ярославская область",
+      "count": 5017
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 4007
+        },
+        {
+          "name": "Negative",
+          "count": 760
+        },
+        {
+          "name": "Positive",
+          "count": 191
+        }
+      ],
+      "name": "Анталья",
+      "count": 4958
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3606
+        },
+        {
+          "name": "Negative",
+          "count": 1117
+        },
+        {
+          "name": "Positive",
+          "count": 190
+        }
+      ],
+      "name": "Кемеровская область",
+      "count": 4913
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3669
+        },
+        {
+          "name": "Negative",
+          "count": 1087
+        },
+        {
+          "name": "Positive",
+          "count": 150
+        }
+      ],
+      "name": "Араратская область",
+      "count": 4906
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3624
+        },
+        {
+          "name": "Negative",
+          "count": 978
+        },
+        {
+          "name": "Positive",
+          "count": 223
+        }
+      ],
+      "name": "Луганская область",
+      "count": 4825
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3431
+        },
+        {
+          "name": "Negative",
+          "count": 992
+        },
+        {
+          "name": "Positive",
+          "count": 191
+        }
+      ],
+      "name": "Оренбургская область",
+      "count": 4614
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3414
+        },
+        {
+          "name": "Negative",
+          "count": 1007
+        },
+        {
+          "name": "Positive",
+          "count": 181
+        }
+      ],
+      "name": "Тверская область",
+      "count": 4602
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3955
+        },
+        {
+          "name": "Negative",
+          "count": 413
+        },
+        {
+          "name": "Positive",
+          "count": 129
+        }
+      ],
+      "name": "Измир",
+      "count": 4497
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3839
+        },
+        {
+          "name": "Negative",
+          "count": 454
+        },
+        {
+          "name": "Positive",
+          "count": 182
+        }
+      ],
+      "name": "Закатальский район",
+      "count": 4475
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3216
+        },
+        {
+          "name": "Negative",
+          "count": 1007
+        },
+        {
+          "name": "Positive",
+          "count": 199
+        }
+      ],
+      "name": "Омская область",
+      "count": 4422
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3222
+        },
+        {
+          "name": "Negative",
+          "count": 979
+        },
+        {
+          "name": "Positive",
+          "count": 197
+        }
+      ],
+      "name": "Запорожская область",
+      "count": 4398
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3849
+        },
+        {
+          "name": "Negative",
+          "count": 366
+        },
+        {
+          "name": "Positive",
+          "count": 110
+        }
+      ],
+      "name": "Хачмазский район",
+      "count": 4325
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3081
+        },
+        {
+          "name": "Negative",
+          "count": 963
+        },
+        {
+          "name": "Positive",
+          "count": 164
+        }
+      ],
+      "name": "Видземе",
+      "count": 4208
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 2929
+        },
+        {
+          "name": "Negative",
+          "count": 1062
+        },
+        {
+          "name": "Positive",
+          "count": 178
+        }
+      ],
+      "name": "Прага",
+      "count": 4169
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3368
+        },
+        {
+          "name": "Negative",
+          "count": 651
+        },
+        {
+          "name": "Positive",
+          "count": 86
+        }
+      ],
+      "name": "Прованс-Альпы-Лазурный Берег",
+      "count": 4105
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3037
+        },
+        {
+          "name": "Negative",
+          "count": 879
+        },
+        {
+          "name": "Positive",
+          "count": 136
+        }
+      ],
+      "name": "Тавушская область",
+      "count": 4052
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 2877
+        },
+        {
+          "name": "Negative",
+          "count": 972
+        },
+        {
+          "name": "Positive",
+          "count": 185
+        }
+      ],
+      "name": "Тульская область",
+      "count": 4034
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3806
+        },
+        {
+          "name": "Negative",
+          "count": 150
+        },
+        {
+          "name": "Positive",
+          "count": 72
+        }
+      ],
+      "name": "Джалилабадский район",
+      "count": 4028
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 2740
+        },
+        {
+          "name": "Negative",
+          "count": 1018
+        },
+        {
+          "name": "Positive",
+          "count": 266
+        }
+      ],
+      "name": "Дубай",
+      "count": 4024
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 2897
+        },
+        {
+          "name": "Negative",
+          "count": 884
+        },
+        {
+          "name": "Positive",
+          "count": 180
+        }
+      ],
+      "name": "Томская область",
+      "count": 3961
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 2684
+        },
+        {
+          "name": "Negative",
+          "count": 1036
+        },
+        {
+          "name": "Positive",
+          "count": 170
+        }
+      ],
+      "name": "Техас",
+      "count": 3890
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3351
+        },
+        {
+          "name": "Negative",
+          "count": 334
+        },
+        {
+          "name": "Positive",
+          "count": 162
+        }
+      ],
+      "name": "Кусарский район",
+      "count": 3847
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3459
+        },
+        {
+          "name": "Negative",
+          "count": 229
+        },
+        {
+          "name": "Positive",
+          "count": 106
+        }
+      ],
+      "name": "Товузский район",
+      "count": 3794
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 2767
+        },
+        {
+          "name": "Negative",
+          "count": 866
+        },
+        {
+          "name": "Positive",
+          "count": 150
+        }
+      ],
+      "name": "Мурманская область",
+      "count": 3783
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3431
+        },
+        {
+          "name": "Negative",
+          "count": 209
+        },
+        {
+          "name": "Positive",
+          "count": 63
+        }
+      ],
+      "name": "Бардинский район",
+      "count": 3703
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3054
+        },
+        {
+          "name": "Negative",
+          "count": 559
+        },
+        {
+          "name": "Positive",
+          "count": 86
+        }
+      ],
+      "name": "Auvergne-Rhône-Alpes",
+      "count": 3699
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 2608
+        },
+        {
+          "name": "Negative",
+          "count": 961
+        },
+        {
+          "name": "Positive",
+          "count": 117
+        }
+      ],
+      "name": "Иллинойс",
+      "count": 3686
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 3155
+        },
+        {
+          "name": "Negative",
+          "count": 254
+        },
+        {
+          "name": "Positive",
+          "count": 203
+        }
+      ],
+      "name": "Шушинский район",
+      "count": 3612
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 2576
+        },
+        {
+          "name": "Negative",
+          "count": 868
+        },
+        {
+          "name": "Positive",
+          "count": 154
+        }
+      ],
+      "name": "Вологодская область",
+      "count": 3598
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 2510
+        },
+        {
+          "name": "Negative",
+          "count": 930
+        },
+        {
+          "name": "Positive",
+          "count": 135
+        }
+      ],
+      "name": "Алтайский край",
+      "count": 3575
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 2765
+        },
+        {
+          "name": "Negative",
+          "count": 673
+        },
+        {
+          "name": "Positive",
+          "count": 101
+        }
+      ],
+      "name": "Большой восточный",
+      "count": 3539
+    }
+  ]
+}

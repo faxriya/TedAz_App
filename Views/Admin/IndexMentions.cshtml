@@ -1,0 +1,16 @@
+﻿@model IEnumerable<TedAzApp.DataContext.Models.FileMentions>
+@{
+    ViewData["Title"] = "File Add";
+}
+
+<h3>Select file to Upload</h3>
+<form asp-action="AddFileMentions" asp-controller="Admin" method="post" enctype="multipart/form-data">
+    <input type="file" name="uploadedFile" /><br>
+    <input type="submit" value="Upload" />
+</form>
+
+@*<h3>All Files</h3>
+@foreach(var f in Model)
+{
+    <p><img src="@Url.Content(f.Path)"></p>
+}*@

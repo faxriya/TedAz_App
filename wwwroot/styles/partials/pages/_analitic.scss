@@ -1,0 +1,104 @@
+.col-diagram{
+    border: 1px solid #ebebeb;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 100px;
+    &__header{
+        text-align: center;
+        border-bottom: 1px solid #ebebeb;
+        span{
+            font-size: 13px;
+            color: #3e5e85;
+            margin-bottom:5px;
+        }
+    }
+    &__body{
+        display: flex;
+        align-items: center;
+        
+        p{
+            font-size: 23px;
+            color: #192c36;
+        }
+        span{
+            font-size: 10px;
+            color: #698494;
+        }
+    }
+    &__title{
+        margin-top: 5px;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        .diagram-position{
+            svg{
+                fill:red;
+                transform: rotate(180deg);
+            }
+        }
+        .diagram-position.green-up{
+            svg{
+                fill:green;
+                transform: rotate(0deg);
+            }
+        }
+    }
+    &__analitic{
+        width: 50%;
+        height: 70px;
+    }
+}
+.row-diagram{
+    border: 1px solid #ebebeb;
+    background-color: #ffff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 15px 20px 15px;
+    
+    &__body{
+        display: flex;
+        align-items: center;
+        border: 1px solid #ebebeb;
+        border-radius: 5px;
+        margin-bottom:5px;
+        
+        p{
+            font-size: 13px;
+            color: #192c36;
+            margin:0;
+        }
+       
+    }
+    &__title{
+        
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        padding: 6px 0 6px 12px;
+        
+    }
+    &__analitic{
+        width: 30%;
+        height: 35px;
+    }
+}
+.diagram-name{
+  p{
+    font-size: 17px;
+    color: #3e5e85;
+  }
+}
+.current-diagram{
+    background-color: #f2f2f3;
+    padding:4px 15px;
+    margin-right:5px;
+    border-radius: 25px;
+    span{
+        font-size: 13px;
+        color: #3e5e85;
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "sentiments": [
+    {
+      "name": "Neutral",
+      "count": 4871901
+    },
+    {
+      "name": "Negative",
+      "count": 1250737
+    },
+    {
+      "name": "Positive",
+      "count": 266177
+    }
+  ],
+  "totalCount": 6388815
+}

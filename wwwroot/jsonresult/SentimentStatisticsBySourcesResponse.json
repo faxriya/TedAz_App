@@ -1,0 +1,1749 @@
+{
+  "totalCount": 6388898,
+  "sources": [
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 2357519
+        },
+        {
+          "name": "Negative",
+          "count": 526339
+        },
+        {
+          "name": "Positive",
+          "count": 112178
+        }
+      ],
+      "name": "facebook.com",
+      "count": 2996036
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 1080315
+        },
+        {
+          "name": "Negative",
+          "count": 229561
+        },
+        {
+          "name": "Positive",
+          "count": 40045
+        }
+      ],
+      "name": "twitter.com",
+      "count": 1349921
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 635083
+        },
+        {
+          "name": "Negative",
+          "count": 297102
+        },
+        {
+          "name": "Positive",
+          "count": 60566
+        }
+      ],
+      "name": "youtube.com",
+      "count": 992751
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 347473
+        },
+        {
+          "name": "Negative",
+          "count": 98396
+        },
+        {
+          "name": "Positive",
+          "count": 20498
+        }
+      ],
+      "name": "vk.com",
+      "count": 466367
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 132449
+        },
+        {
+          "name": "Negative",
+          "count": 15832
+        },
+        {
+          "name": "Positive",
+          "count": 6441
+        }
+      ],
+      "name": "telegram.me",
+      "count": 154722
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 99693
+        },
+        {
+          "name": "Negative",
+          "count": 37582
+        },
+        {
+          "name": "Positive",
+          "count": 11317
+        }
+      ],
+      "name": "ok.ru",
+      "count": 148592
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 120727
+        },
+        {
+          "name": "Positive",
+          "count": 9892
+        },
+        {
+          "name": "Negative",
+          "count": 3625
+        }
+      ],
+      "name": "instagram.com",
+      "count": 134244
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 15110
+        },
+        {
+          "name": "Negative",
+          "count": 7772
+        },
+        {
+          "name": "Positive",
+          "count": 794
+        }
+      ],
+      "name": "livejournal.com",
+      "count": 23676
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 4095
+        },
+        {
+          "name": "Negative",
+          "count": 809
+        },
+        {
+          "name": "Positive",
+          "count": 298
+        }
+      ],
+      "name": "zen.yandex.ru",
+      "count": 5202
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Negative",
+          "count": 2165
+        },
+        {
+          "name": "Neutral",
+          "count": 2154
+        },
+        {
+          "name": "Positive",
+          "count": 23
+        }
+      ],
+      "name": "southfront.org",
+      "count": 4342
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 2820
+        },
+        {
+          "name": "Positive",
+          "count": 686
+        },
+        {
+          "name": "Negative",
+          "count": 197
+        }
+      ],
+      "name": "tiktok.com",
+      "count": 3703
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 1990
+        },
+        {
+          "name": "Negative",
+          "count": 844
+        },
+        {
+          "name": "Positive",
+          "count": 80
+        }
+      ],
+      "name": "otvet.mail.ru",
+      "count": 2914
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 1717
+        },
+        {
+          "name": "Negative",
+          "count": 694
+        },
+        {
+          "name": "Positive",
+          "count": 75
+        }
+      ],
+      "name": "pikabu.ru",
+      "count": 2486
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 1829
+        },
+        {
+          "name": "Negative",
+          "count": 620
+        },
+        {
+          "name": "Positive",
+          "count": 11
+        }
+      ],
+      "name": "caucasus.liveuamap.com",
+      "count": 2460
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 1096
+        },
+        {
+          "name": "Negative",
+          "count": 983
+        },
+        {
+          "name": "Positive",
+          "count": 116
+        }
+      ],
+      "name": "menafn.com",
+      "count": 2195
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 815
+        },
+        {
+          "name": "Negative",
+          "count": 798
+        },
+        {
+          "name": "Positive",
+          "count": 40
+        }
+      ],
+      "name": "vlasti.net",
+      "count": 1653
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 1354
+        },
+        {
+          "name": "Negative",
+          "count": 158
+        },
+        {
+          "name": "Positive",
+          "count": 66
+        }
+      ],
+      "name": "news.rambler.ru",
+      "count": 1578
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 938
+        },
+        {
+          "name": "Negative",
+          "count": 455
+        },
+        {
+          "name": "Positive",
+          "count": 33
+        }
+      ],
+      "name": "yaplakal.com",
+      "count": 1426
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 676
+        },
+        {
+          "name": "Negative",
+          "count": 659
+        }
+      ],
+      "name": "msn.com",
+      "count": 1335
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 1153
+        },
+        {
+          "name": "Negative",
+          "count": 135
+        },
+        {
+          "name": "Positive",
+          "count": 26
+        }
+      ],
+      "name": "lostarmour.info",
+      "count": 1314
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 821
+        },
+        {
+          "name": "Negative",
+          "count": 296
+        },
+        {
+          "name": "Positive",
+          "count": 85
+        }
+      ],
+      "name": "forums.drom.ru",
+      "count": 1202
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 1073
+        },
+        {
+          "name": "Negative",
+          "count": 98
+        },
+        {
+          "name": "Positive",
+          "count": 19
+        }
+      ],
+      "name": "report.az",
+      "count": 1190
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 486
+        },
+        {
+          "name": "Negative",
+          "count": 477
+        },
+        {
+          "name": "Positive",
+          "count": 189
+        }
+      ],
+      "name": "change.org",
+      "count": 1152
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 814
+        },
+        {
+          "name": "Negative",
+          "count": 297
+        },
+        {
+          "name": "Positive",
+          "count": 27
+        }
+      ],
+      "name": "rossaprimavera.ru",
+      "count": 1138
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 893
+        },
+        {
+          "name": "Negative",
+          "count": 124
+        },
+        {
+          "name": "Positive",
+          "count": 25
+        }
+      ],
+      "name": "ru.armeniasputnik.am",
+      "count": 1042
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 640
+        },
+        {
+          "name": "Negative",
+          "count": 208
+        },
+        {
+          "name": "Positive",
+          "count": 41
+        }
+      ],
+      "name": "forum.pravda.com.ua",
+      "count": 889
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 683
+        },
+        {
+          "name": "Negative",
+          "count": 123
+        },
+        {
+          "name": "Positive",
+          "count": 15
+        }
+      ],
+      "name": "forum.ixbt.com",
+      "count": 821
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Negative",
+          "count": 435
+        },
+        {
+          "name": "Neutral",
+          "count": 349
+        },
+        {
+          "name": "Positive",
+          "count": 20
+        }
+      ],
+      "name": "myseldon.com",
+      "count": 804
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 400
+        },
+        {
+          "name": "Negative",
+          "count": 300
+        },
+        {
+          "name": "Positive",
+          "count": 8
+        }
+      ],
+      "name": "forum.ykt.ru",
+      "count": 708
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Negative",
+          "count": 437
+        },
+        {
+          "name": "Neutral",
+          "count": 247
+        },
+        {
+          "name": "Positive",
+          "count": 21
+        }
+      ],
+      "name": "news.am",
+      "count": 705
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Negative",
+          "count": 429
+        },
+        {
+          "name": "Neutral",
+          "count": 235
+        },
+        {
+          "name": "Positive",
+          "count": 8
+        }
+      ],
+      "name": "groong.com",
+      "count": 672
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 597
+        },
+        {
+          "name": "Negative",
+          "count": 43
+        },
+        {
+          "name": "Positive",
+          "count": 21
+        }
+      ],
+      "name": "profi-news.ru",
+      "count": 661
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 602
+        },
+        {
+          "name": "Negative",
+          "count": 18
+        },
+        {
+          "name": "Positive",
+          "count": 12
+        }
+      ],
+      "name": "ria.ru",
+      "count": 632
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 419
+        },
+        {
+          "name": "Negative",
+          "count": 191
+        },
+        {
+          "name": "Positive",
+          "count": 8
+        }
+      ],
+      "name": "blogspot.com",
+      "count": 618
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 584
+        },
+        {
+          "name": "Negative",
+          "count": 2
+        }
+      ],
+      "name": "modern.az",
+      "count": 586
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Negative",
+          "count": 278
+        },
+        {
+          "name": "Neutral",
+          "count": 250
+        },
+        {
+          "name": "Positive",
+          "count": 16
+        }
+      ],
+      "name": "einnews.com",
+      "count": 544
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 339
+        },
+        {
+          "name": "Negative",
+          "count": 180
+        },
+        {
+          "name": "Positive",
+          "count": 21
+        }
+      ],
+      "name": "armenpress.am",
+      "count": 540
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Negative",
+          "count": 275
+        },
+        {
+          "name": "Neutral",
+          "count": 197
+        },
+        {
+          "name": "Positive",
+          "count": 48
+        }
+      ],
+      "name": "azernews.az",
+      "count": 520
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 431
+        },
+        {
+          "name": "Positive",
+          "count": 49
+        },
+        {
+          "name": "Negative",
+          "count": 40
+        }
+      ],
+      "name": "ru.oxu.az",
+      "count": 520
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 455
+        },
+        {
+          "name": "Negative",
+          "count": 38
+        },
+        {
+          "name": "Positive",
+          "count": 23
+        }
+      ],
+      "name": "123ru.net",
+      "count": 516
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 506
+        },
+        {
+          "name": "Negative",
+          "count": 7
+        }
+      ],
+      "name": "oxu.az",
+      "count": 513
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 384
+        },
+        {
+          "name": "Negative",
+          "count": 99
+        },
+        {
+          "name": "Positive",
+          "count": 28
+        }
+      ],
+      "name": "kharkovforum.com",
+      "count": 511
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Negative",
+          "count": 280
+        },
+        {
+          "name": "Neutral",
+          "count": 177
+        },
+        {
+          "name": "Positive",
+          "count": 32
+        }
+      ],
+      "name": "en.trend.az",
+      "count": 489
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 423
+        },
+        {
+          "name": "Negative",
+          "count": 27
+        },
+        {
+          "name": "Positive",
+          "count": 13
+        }
+      ],
+      "name": "armenews.com",
+      "count": 463
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 294
+        },
+        {
+          "name": "Negative",
+          "count": 139
+        },
+        {
+          "name": "Positive",
+          "count": 21
+        }
+      ],
+      "name": "tjournal.ru",
+      "count": 454
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 391
+        },
+        {
+          "name": "Positive",
+          "count": 30
+        },
+        {
+          "name": "Negative",
+          "count": 27
+        }
+      ],
+      "name": "blognews.am",
+      "count": 448
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 207
+        },
+        {
+          "name": "Negative",
+          "count": 197
+        },
+        {
+          "name": "Positive",
+          "count": 41
+        }
+      ],
+      "name": "reddit.com",
+      "count": 445
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 362
+        },
+        {
+          "name": "Negative",
+          "count": 46
+        },
+        {
+          "name": "Positive",
+          "count": 6
+        }
+      ],
+      "name": "forum.guns.ru",
+      "count": 414
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 360
+        },
+        {
+          "name": "Negative",
+          "count": 26
+        },
+        {
+          "name": "Positive",
+          "count": 13
+        }
+      ],
+      "name": "delo-kira.ru",
+      "count": 399
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 364
+        },
+        {
+          "name": "Negative",
+          "count": 27
+        }
+      ],
+      "name": "forum.hr",
+      "count": 391
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 311
+        },
+        {
+          "name": "Negative",
+          "count": 64
+        },
+        {
+          "name": "Positive",
+          "count": 16
+        }
+      ],
+      "name": "news.ru",
+      "count": 391
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 334
+        },
+        {
+          "name": "Negative",
+          "count": 31
+        },
+        {
+          "name": "Positive",
+          "count": 20
+        }
+      ],
+      "name": "tehnowar.ru",
+      "count": 385
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 272
+        },
+        {
+          "name": "Negative",
+          "count": 70
+        },
+        {
+          "name": "Positive",
+          "count": 23
+        }
+      ],
+      "name": "diesel.elcat.kg",
+      "count": 365
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 350
+        },
+        {
+          "name": "Negative",
+          "count": 9
+        },
+        {
+          "name": "Positive",
+          "count": 6
+        }
+      ],
+      "name": "pravda.rs",
+      "count": 365
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 319
+        },
+        {
+          "name": "Negative",
+          "count": 13
+        },
+        {
+          "name": "Positive",
+          "count": 5
+        }
+      ],
+      "name": "uazmi.org",
+      "count": 337
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Negative",
+          "count": 214
+        },
+        {
+          "name": "Neutral",
+          "count": 115
+        },
+        {
+          "name": "Positive",
+          "count": 7
+        }
+      ],
+      "name": "time24story.com",
+      "count": 336
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 261
+        },
+        {
+          "name": "Negative",
+          "count": 62
+        },
+        {
+          "name": "Positive",
+          "count": 8
+        }
+      ],
+      "name": "forum.gorod.dp.ua",
+      "count": 331
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 329
+        }
+      ],
+      "name": "lent.az",
+      "count": 329
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 288
+        },
+        {
+          "name": "Positive",
+          "count": 21
+        },
+        {
+          "name": "Negative",
+          "count": 17
+        }
+      ],
+      "name": "iz.ru",
+      "count": 326
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 297
+        },
+        {
+          "name": "Negative",
+          "count": 20
+        },
+        {
+          "name": "Positive",
+          "count": 7
+        }
+      ],
+      "name": "tass.ru",
+      "count": 324
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 256
+        },
+        {
+          "name": "Negative",
+          "count": 51
+        },
+        {
+          "name": "Positive",
+          "count": 13
+        }
+      ],
+      "name": "yarportal.ru",
+      "count": 320
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Negative",
+          "count": 214
+        },
+        {
+          "name": "Neutral",
+          "count": 98
+        },
+        {
+          "name": "Positive",
+          "count": 5
+        }
+      ],
+      "name": "forum.moya-semya.ru",
+      "count": 317
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 285
+        },
+        {
+          "name": "Negative",
+          "count": 22
+        },
+        {
+          "name": "Positive",
+          "count": 7
+        }
+      ],
+      "name": "eadaily.com",
+      "count": 314
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 245
+        },
+        {
+          "name": "Negative",
+          "count": 42
+        },
+        {
+          "name": "Positive",
+          "count": 26
+        }
+      ],
+      "name": "vzglyad.az",
+      "count": 313
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 204
+        },
+        {
+          "name": "Negative",
+          "count": 87
+        },
+        {
+          "name": "Positive",
+          "count": 9
+        }
+      ],
+      "name": "thefreelibrary.com",
+      "count": 300
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 169
+        },
+        {
+          "name": "Negative",
+          "count": 93
+        },
+        {
+          "name": "Positive",
+          "count": 37
+        }
+      ],
+      "name": "ifunny.co",
+      "count": 299
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 280
+        },
+        {
+          "name": "Negative",
+          "count": 10
+        },
+        {
+          "name": "Positive",
+          "count": 8
+        }
+      ],
+      "name": "mk.ru",
+      "count": 298
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 165
+        },
+        {
+          "name": "Negative",
+          "count": 125
+        },
+        {
+          "name": "Positive",
+          "count": 3
+        }
+      ],
+      "name": "pressfrom.info",
+      "count": 293
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 266
+        },
+        {
+          "name": "Negative",
+          "count": 14
+        },
+        {
+          "name": "Positive",
+          "count": 11
+        }
+      ],
+      "name": "gazeta.ru",
+      "count": 291
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 291
+        }
+      ],
+      "name": "turkustan.info",
+      "count": 291
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 233
+        },
+        {
+          "name": "Negative",
+          "count": 34
+        },
+        {
+          "name": "Positive",
+          "count": 23
+        }
+      ],
+      "name": "svpressa.ru",
+      "count": 290
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 258
+        },
+        {
+          "name": "Negative",
+          "count": 26
+        },
+        {
+          "name": "Positive",
+          "count": 6
+        }
+      ],
+      "name": "lenta.ru",
+      "count": 290
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 245
+        },
+        {
+          "name": "Negative",
+          "count": 29
+        },
+        {
+          "name": "Positive",
+          "count": 14
+        }
+      ],
+      "name": "cont.ws",
+      "count": 288
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 252
+        },
+        {
+          "name": "Negative",
+          "count": 21
+        },
+        {
+          "name": "Positive",
+          "count": 12
+        }
+      ],
+      "name": "aqparat.info",
+      "count": 285
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 242
+        },
+        {
+          "name": "Positive",
+          "count": 28
+        },
+        {
+          "name": "Negative",
+          "count": 14
+        }
+      ],
+      "name": "ng.ru",
+      "count": 284
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 250
+        },
+        {
+          "name": "Negative",
+          "count": 17
+        },
+        {
+          "name": "Positive",
+          "count": 14
+        }
+      ],
+      "name": "vz.ru",
+      "count": 281
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 166
+        },
+        {
+          "name": "Negative",
+          "count": 102
+        },
+        {
+          "name": "Positive",
+          "count": 13
+        }
+      ],
+      "name": "antifashist.com",
+      "count": 281
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Negative",
+          "count": 163
+        },
+        {
+          "name": "Neutral",
+          "count": 106
+        },
+        {
+          "name": "Positive",
+          "count": 2
+        }
+      ],
+      "name": "tellerreport.com",
+      "count": 271
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 237
+        },
+        {
+          "name": "Negative",
+          "count": 22
+        },
+        {
+          "name": "Positive",
+          "count": 7
+        }
+      ],
+      "name": "forum.littleone.ru",
+      "count": 266
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 223
+        },
+        {
+          "name": "Positive",
+          "count": 26
+        },
+        {
+          "name": "Negative",
+          "count": 17
+        }
+      ],
+      "name": "vesti.az",
+      "count": 266
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 216
+        },
+        {
+          "name": "Positive",
+          "count": 21
+        },
+        {
+          "name": "Negative",
+          "count": 18
+        }
+      ],
+      "name": "news.ivest.kz",
+      "count": 255
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 185
+        },
+        {
+          "name": "Negative",
+          "count": 54
+        },
+        {
+          "name": "Positive",
+          "count": 13
+        }
+      ],
+      "name": "benzclub.ru",
+      "count": 252
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 204
+        },
+        {
+          "name": "Negative",
+          "count": 34
+        },
+        {
+          "name": "Positive",
+          "count": 11
+        }
+      ],
+      "name": "rusvesna.su",
+      "count": 249
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 242
+        }
+      ],
+      "name": "ikisahil.az",
+      "count": 242
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 180
+        },
+        {
+          "name": "Negative",
+          "count": 53
+        },
+        {
+          "name": "Positive",
+          "count": 6
+        }
+      ],
+      "name": "abc.az",
+      "count": 239
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 203
+        },
+        {
+          "name": "Negative",
+          "count": 21
+        },
+        {
+          "name": "Positive",
+          "count": 12
+        }
+      ],
+      "name": "aravot-ru.am",
+      "count": 236
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 193
+        },
+        {
+          "name": "Negative",
+          "count": 26
+        },
+        {
+          "name": "Positive",
+          "count": 13
+        }
+      ],
+      "name": "rusdozor.ru",
+      "count": 232
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 199
+        },
+        {
+          "name": "Positive",
+          "count": 16
+        },
+        {
+          "name": "Negative",
+          "count": 15
+        }
+      ],
+      "name": "news-life.pro",
+      "count": 230
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 179
+        },
+        {
+          "name": "Negative",
+          "count": 36
+        },
+        {
+          "name": "Positive",
+          "count": 11
+        }
+      ],
+      "name": "lragir.am",
+      "count": 226
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 143
+        },
+        {
+          "name": "Negative",
+          "count": 80
+        },
+        {
+          "name": "Positive",
+          "count": 3
+        }
+      ],
+      "name": "shafaqna.com",
+      "count": 226
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 175
+        },
+        {
+          "name": "Negative",
+          "count": 40
+        },
+        {
+          "name": "Positive",
+          "count": 8
+        }
+      ],
+      "name": "forums.kuban.ru",
+      "count": 223
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 183
+        },
+        {
+          "name": "Negative",
+          "count": 17
+        },
+        {
+          "name": "Positive",
+          "count": 10
+        }
+      ],
+      "name": "aspekty.net",
+      "count": 210
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 111
+        },
+        {
+          "name": "Negative",
+          "count": 83
+        },
+        {
+          "name": "Positive",
+          "count": 11
+        }
+      ],
+      "name": "petrimazepa.com",
+      "count": 205
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 123
+        },
+        {
+          "name": "Negative",
+          "count": 66
+        },
+        {
+          "name": "Positive",
+          "count": 14
+        }
+      ],
+      "name": "aa.com.tr",
+      "count": 203
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 190
+        },
+        {
+          "name": "Negative",
+          "count": 8
+        },
+        {
+          "name": "Positive",
+          "count": 3
+        }
+      ],
+      "name": "radiosputnik.ria.ru",
+      "count": 201
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 100
+        },
+        {
+          "name": "Negative",
+          "count": 91
+        },
+        {
+          "name": "Positive",
+          "count": 8
+        }
+      ],
+      "name": "yenisafak.com",
+      "count": 199
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Negative",
+          "count": 150
+        },
+        {
+          "name": "Neutral",
+          "count": 45
+        }
+      ],
+      "name": "bta.bg",
+      "count": 195
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 194
+        }
+      ],
+      "name": "naver.com",
+      "count": 194
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Neutral",
+          "count": 152
+        },
+        {
+          "name": "Negative",
+          "count": 35
+        },
+        {
+          "name": "Positive",
+          "count": 5
+        }
+      ],
+      "name": "bmwclub.ru",
+      "count": 192
+    },
+    {
+      "sentiments": [
+        {
+          "name": "Negative",
+          "count": 160
+        },
+        {
+          "name": "Neutral",
+          "count": 30
+        }
+      ],
+      "name": "lasvegassun.com",
+      "count": 190
+    }
+  ]
+}

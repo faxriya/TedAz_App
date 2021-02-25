@@ -1,0 +1,37 @@
+.gray-body {
+    background-color: $body-gray;
+}
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+table {
+    border-collapse: collapse;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px #ebebeb; /* this draws the table border  */
+}
+.table td,
+.table th {
+    border: 1px solid #dee2e6;
+}
+.progress-table{
+    width:100%;
+}
+.link-table {
+    overflow: hidden;
+    .table-header {
+        color: #3e5e85;
+        font-size: 13px;
+    }
+    .active-tr {
+        font-size: 14px;
+        font-style: normal;
+        color: #97aec8;
+    }
+    .active-link {
+        background-color: #f6f6f6;
+        color: $text-blue;
+    }
+}

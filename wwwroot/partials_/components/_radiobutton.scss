@@ -1,0 +1,172 @@
+label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: block;
+    margin: 1em;
+    height: 15px;
+    > input {
+        display: none;
+    }
+
+    
+
+    i {
+        display: inline-block;
+        width: 22px;
+        height: 11px;
+        border-radius: 20px;
+        vertical-align: middle;
+        transition: 0.25s 0.09s;
+        position: relative;
+        background: $white;
+        border:1px solid #B6CDE6;
+        &:after {
+            content:"";
+            display: block;
+            width: 15px;
+            height: 15px;
+            top: -3px;
+            left: -6px;
+            border-radius: 50%;
+         
+        background: #97AEC7;
+
+            position: absolute;
+            -webkit-transition: 0.15s;
+            transition: 0.15s;
+            border: 1px solid #97AEC7;
+        }
+    }
+
+    // Checked-state
+    > input:checked + i {
+        background: $body-blue;
+    }
+
+    
+
+    > input:checked + i:after {
+        background: #fff;
+
+        transform: translateX(18px);
+    }
+}
+.filter-check {
+    --active: #275EFE;
+    --active-inner: #fff;
+    --focus: 2px rgba(39, 94, 254, .3);
+    --border: #BBC1E1;
+    --border-hover: #275EFE;
+    --background: #fff;
+    --disabled: #F6F8FF;
+    --disabled-inner: #E1E6F9;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 15px;
+    outline: none;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    border: 1px solid var(--bc, var(--border));
+    background: var(--b, var(--background));
+    transition: background .3s, border-color .3s, box-shadow .2s;
+    &:after {
+      content: '';
+      display: block;
+      left: 0;
+      top: 0;
+      position: absolute;
+      transition: transform var(--d-t, .3s) var(--d-t-e, ease), opacity var(--d-o, .2s);
+    }
+    &:checked {
+      --b: var(--active);
+      --bc: var(--active);
+      --d-o: .3s;
+      --d-t: .6s;
+      --d-t-e: cubic-bezier(.2, .85, .32, 1.2);
+    }
+    &:disabled {
+      --b: var(--disabled);
+      cursor: not-allowed;
+      opacity: .9;
+      &:checked {
+        --b: var(--disabled-inner);
+        --bc: var(--border);
+      }
+      & + label {
+        cursor: not-allowed;
+      }
+    }
+    &:hover {
+      &:not(:checked) {
+        &:not(:disabled) {
+          --bc: var(--border-hover);
+        }
+      }
+    }
+    &:focus {
+      box-shadow: 0 0 0 var(--focus);
+    }
+    &:not(.switch) {
+      width: 15px;
+      &:after {
+        opacity: var(--o, 0);
+      }
+      &:checked {
+        --o: 1;
+      }
+    }
+    & + label {
+      font-size: 14px;
+      line-height: 21px;
+      display: inline-block;
+      vertical-align: top;
+      cursor: pointer;
+      margin-left: 4px;
+    }
+  }
+  .filter-check {
+    &:not(.switch) {
+      border-radius: 100%;
+      &:after {
+        width: 5px;
+        height: 9px;
+        border: 2px solid var(--active-inner);
+        border-top: 0;
+        border-left: 0;
+        left: 4px;
+        top: 1px;
+        transform: rotate(var(--r, 20deg));
+      }
+      &:checked {
+        --r: 43deg;
+      }
+    }
+    &.switch {
+      width: 38px;
+      border-radius: 11px;
+      &:after {
+        left: 2px;
+        top: 2px;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        background: var(--ab, var(--border));
+        transform: translateX(var(--x, 0));
+      }
+      &:checked {
+        --ab: var(--active-inner);
+        --x: 17px;
+      }
+      &:disabled {
+        &:not(:checked) {
+          &:after {
+            opacity: .6;
+          }
+        }
+      }
+    }
+  }

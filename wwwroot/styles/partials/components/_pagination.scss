@@ -1,0 +1,25 @@
+.bottom-nav__pagination {
+    ul {
+        display: flex;
+        align-items: center;
+        .active-pagi {
+            border-radius:100%;
+            background-color:$text-blue;
+            width:20px;
+            height: 20px;
+            text-align: center;
+            a{
+                color:$white !important
+            }
+        }
+        .active-last {
+            a {
+                font-size: 13px;
+                color: #97aec8;
+            }
+        }
+        li {
+            margin-right: 15px;
+        }
+    }
+}

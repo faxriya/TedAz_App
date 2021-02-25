@@ -1,0 +1,132 @@
+﻿@{
+    ViewData["Title"] = "Müəlliflər";
+    ViewData["Image"] = "/img/header-logo/authors.png";
+
+}
+<header class="header-main">
+    <div class="container-fluid p-0">
+        <nav>
+
+
+@await Html.PartialAsync("../Shared/_HeaderMenu", ViewData)
+
+@await Html.PartialAsync("../Shared/_BottomNavMenu", null)
+</nav>
+</div>
+</header>
+<main role="main">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="main-post">
+                    <table class="table link-table">
+                        <thead>
+                            <tr class="active-tr temp-hidden">
+                                <!-- <th scope="col">#</th> -->
+                                <th width="33%" class="active-link text-center" colspan="3" scope="col">
+                                    Behs
+                                    edilenlerin sayina gore ust elaqeler
+                                </th>
+                                <th width="33%" class="text-center" colspan="4" scope="col">
+                                    Abunəçilərin sayına görə
+                                    ən yaxşı müəlliflər
+                                </th>
+                                <th width="33%" class="text-center" colspan="3" scope="col">
+                                    Nisanlamaq ucun en
+                                    yaxsi elaqeler
+                                </th>
+
+
+
+                            </tr>
+                            <tr class="text-center table-header">
+                                <!-- <th scope="col">#</th> -->
+                                <th colspan="3" scope="col">Ad</th>
+                                <th class="text-center" scope="col">Növ</th>
+                                <th class="text-center" scope="col">Abunə</th>
+                                <th class="text-center" scope="col">İştirak edir </th>
+                                <th class="text-center" scope="col">Qeyd etmək </th>
+                                <th class="text-center temp-hidden" scope="col">Açar </th>
+
+
+
+                            </tr>
+                        </thead>
+                        <tbody class="authors-list">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+
+
+@section Scripts{
+
+    <script>
+        $.ajax({
+            url: `/Mention/Author`,
+            type: 'POST',
+            success: function (data) {
+                data = JSON.parse(data);
+                console.log(data)
+                $.each(data, function (i, v) {
+
+                    let div = `
+                               <tr>
+                                            <th class="text-center" style="width: 3%;">
+                                                <div>
+                                                    <img alt="twitter.com" class="vC4TLKEPzXJ_04VmGF6hI"
+                                                         title="twitter.com"
+                                                         src="https://www.google.com/s2/favicons?domain=help.twitter.com"
+                                                         width="14" height="14">
+                                                </div>
+                                            </th>
+                                            <th style="width: 3%;">
+                                                <div>
+                                                    <img class="table-user-image" width="30" height="30" src="https://via.placeholder.com/150" alt="">
+                                                </div>
+                                            </th>
+                                            <td class="text-center">
+
+                                                <p>    ${v.AuthorName}</p>
+                                            </td>
+                                            <td class="text-center">
+                                                <p>Şəxsi profil</p>
+                                            </td>
+                                            <td class="text-center"><p></p></td>
+                                            <td class="text-center"><p>2065</p></td>
+                                            <td class="text-center"><p>${v.MentionCount}</p></td>
+
+
+                                            <td class="temp-hidden">
+                                                <div class="progress">
+                                                    <div class="progress-bar " role="progressbar" style="width: 60%"
+                                                         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </td>
+
+
+
+                                        </tr>
+`
+                    $(".authors-list").append(div);
+                });
+
+
+            },
+            error: function (resp) {
+                console.error(resp);
+            }
+        })
+    </script>
+
+
+
+
+}

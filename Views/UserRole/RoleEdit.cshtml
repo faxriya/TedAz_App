@@ -1,0 +1,15 @@
+﻿@model TedAzApp.Models.ViewModels.ChangeRoleViewModel
+
+<h2>@Model.UserEmail user Roles edit</h2>
+
+<form asp-action="RoleEdit" method="post">
+    <input type="hidden" name="userId" value="@Model.UserId" />
+    <div class="form-group">
+        @foreach (var role in Model.AllRoles)
+        {
+            <input type="checkbox" name="roles" value="@role.Name"
+                   @(role.IsChecked ? "checked=\"checked\"" : "") />@role.Name <br />
+            }
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

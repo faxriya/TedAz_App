@@ -1,0 +1,43 @@
+.sign-form-button,
+.more-info-button,
+.monitoring-btn,
+.cancel,
+.burger-btn,
+.header-drop,
+.messenger,
+.form-search,
+.acces-cancel,
+.search,
+#date-btn,
+.accept-changes {
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.accept-changes {
+    background-color: #5987ff;
+    border-radius: 25px;
+    color: #ffff;
+    padding: 2px 9px;
+
+    small {
+        position: relative;
+        margin-left: 10px;
+
+        &:after {
+            content: "";
+            position: absolute;
+            height: 200%;
+            width: 1px;
+            background-color: #6690ff;
+            left: -5px;
+            top: -7px;
+        }
+    }
+}

@@ -1,0 +1,778 @@
+﻿@{
+    ViewData["Title"] = "Parametrlər";
+    ViewData["Image"] = "/img/header-logo/parametr.png";
+}
+<header class="header-main">
+    <div class="container-fluid p-0">
+        <nav>
+            @await Html.PartialAsync("../Shared/_HeaderMenu", ViewData)
+        </nav>
+    </div>
+</header>
+<div class="container-fluid p-0">
+    <div class="row no-gutters">
+        <div class="col-12">
+            <div class="tab-wrapper m-0">
+                <ul id="tabs">
+
+                    <li><a id="tab1">Ümumi</a></li>
+                    <li><a id="tab2">Filtr</a></li>
+                    <li><a id="tab3">Tarix toplanır</a></li>
+                    <li><a id="tab4">Qaydalar</a></li>
+                    <li><a id="tab5">Taglar</a></li>
+                    <li><a id="tab6">İnteqrasiya</a></li>
+                    <li><a id="tab7">Xaric edilmişdir</a></li>
+                    <li><a id="tab8">Silinir</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<main role="main">
+    <div class="container-fluid p-0">
+        <!-- all -->
+        <div class="tab-el" id="tab1C">
+
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="main-post ">
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- filtr -->
+        <div class="tab-el" id="tab2C">
+
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="main-post set-menu ">
+                        <div class="set-menu__header justify-content-between">
+                            <span>
+                                Filtr
+                            </span>
+                            <div>
+                                <button class="accept-changes">
+                                    <img src="~/img/button-sett.png"
+                                         alt=""><small>Tətbiq et</small>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="set-menu__body">
+                            <!-- languages -->
+                            <div class="filter-block">
+                                <div class=" d-flex justify-content-between">
+                                    <div class="filter-block__name">
+                                        <span>Dillər</span>
+                                    </div>
+                                    <div class="filter-block__choose">
+                                        <span>Hamısı</span>
+                                        <label class="m-0">
+                                            <input check-type="languages" class="cb cb1" type="checkbox"
+                                                   name="social" />
+                                            <i></i>
+
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="filter-block__input">
+                                    <input placeholder="Axtar" class="block-input" type="text">
+                                    <button class="search">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                                <!-- languages -->
+                                <div check-type="languages" class="filter-block__check">
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c1" type="checkbox">
+                                        <label class="not-acces" for="c1">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c2" type="checkbox">
+                                        <label class="not-acces" for="c2">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c3" type="checkbox">
+                                        <label for="c3">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c4" type="checkbox">
+                                        <label for="c4">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c5" type="checkbox">
+                                        <label for="c5">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c6" type="checkbox">
+                                        <label for="c6">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c7" type="checkbox">
+                                        <label for="c7">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c8" type="checkbox">
+                                        <label for="c8">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c9" type="checkbox">
+                                        <label for="c9">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c10" type="checkbox">
+                                        <label for="c10">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c11" type="checkbox" checked>
+                                        <label for="c11">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c12" type="checkbox" checked>
+                                        <label for="c12">CountryName</label>
+                                    </div>
+                                </div>
+                                <div check-type="languages" class="filter-block__notification">
+                                    <span>Bütün dəstəklənən dillər seçilib</span>
+                                </div>
+
+                            </div>
+                            <!-- cities -->
+                            <div class="filter-block">
+                                <div class=" d-flex justify-content-between">
+                                    <div class="filter-block__name">
+                                        <span>Ölkə</span>
+                                    </div>
+                                    <div class="filter-block__choose">
+                                        <span>Hamısı</span>
+                                        <label class="m-0">
+                                            <input check-type="cities" class="cb cb1" type="checkbox"
+                                                   name="social" />
+                                            <i></i>
+
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="filter-block__input">
+                                    <input placeholder="Axtar" class="block-input" type="text">
+                                    <button class="search">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                                <!-- cities -->
+                                <div check-type="cities" class="filter-block__check">
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c13" type="checkbox">
+                                        <label class="not-acces" for="c13">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c14" type="checkbox">
+                                        <label class="not-acces" for="c14">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c15" type="checkbox">
+                                        <label for="c15">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c16" type="checkbox">
+                                        <label for="c16">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c17" type="checkbox">
+                                        <label for="c17">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c18" type="checkbox">
+                                        <label for="c18">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c19" type="checkbox">
+                                        <label for="c19">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c20" type="checkbox">
+                                        <label for="c20">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c21" type="checkbox">
+                                        <label for="c21">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c22" type="checkbox">
+                                        <label for="c22">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c23" type="checkbox" checked>
+                                        <label for="c23">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c24" type="checkbox" checked>
+                                        <label for="c24">CountryName</label>
+                                    </div>
+                                </div>
+                                <div check-type="cities" class="filter-block__notification">
+                                    <span>Bütün dəstəklənən ölkələr seçilib</span>
+                                </div>
+
+                            </div>
+                            <!-- source types-->
+                            <div class="filter-block">
+                                <div class=" d-flex justify-content-between">
+                                    <div class="filter-block__name">
+                                        <span>Mənbə növləri </span>
+                                    </div>
+                                    <div class="filter-block__choose">
+                                        <span>Hamısı</span>
+                                        <label class="m-0">
+                                            <input check-type="source-types" class="cb cb1"
+                                                   type="checkbox" name="social" />
+                                            <i></i>
+
+                                        </label>
+                                    </div>
+                                </div>
+                                <div check-type="source-types" class="filter-block__check">
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c25" type="checkbox">
+                                        <label class="not-acces" for="c25">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c26" type="checkbox">
+                                        <label class="not-acces" for="c26">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c27" type="checkbox">
+                                        <label for="c27">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c28" type="checkbox">
+                                        <label for="c28">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c29" type="checkbox">
+                                        <label for="c29">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c30" type="checkbox">
+                                        <label for="c30">CountryName</label>
+                                    </div>
+
+                                </div>
+                                <div check-type="source-types" class="filter-block__notification">
+                                    <span>Bütün dəstəklənən mənbə növləri seçilib</span>
+                                </div>
+
+                            </div>
+                            <!-- types-->
+                            <div class="filter-block">
+                                <div class=" d-flex justify-content-between">
+                                    <div class="filter-block__name">
+                                        <span>Tip növləri </span>
+                                    </div>
+                                    <div class="filter-block__choose">
+                                        <span>Hamısı</span>
+                                        <label class="m-0">
+                                            <input check-type="types" class="cb cb1" type="checkbox"
+                                                   name="social" />
+                                            <i></i>
+
+                                        </label>
+                                    </div>
+                                </div>
+                                <div check-type="types" class="filter-block__check">
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c31" type="checkbox">
+                                        <label class="not-acces" for="c31">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c32" type="checkbox">
+                                        <label class="not-acces" for="c32">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c33" type="checkbox">
+                                        <label for="c33">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c34" type="checkbox">
+                                        <label for="c34">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c35" type="checkbox">
+                                        <label for="c35">CountryName</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input class="filter-check" id="c36" type="checkbox">
+                                        <label for="c36">CountryName</label>
+                                    </div>
+
+                                </div>
+                                <div check-type="types" class="filter-block__notification">
+                                    <span>Bütün dəstəklənən qeyd növləri seçilib</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- date-pick -->
+        <div class="tab-el" id="tab3C">
+
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="main-post set-menu ">
+                        <div class="set-menu__header">
+                            <span>Tarix toplanır</span>
+                        </div>
+                        <div class="set-menu__body">
+                            <div class="filter-block">
+                                <div class="filter-block__name">
+                                    <span>1.Qeydləri toplamaq üçün bir müddət seçin </span>
+                                </div>
+                                <div class="filter-block__date">
+
+                                    <div> <img src="~/img/date-2.png" alt="datetime"></div>
+
+                                    <input type="text" id="datepicker-2">
+
+                                </div>
+                                <div class="filter-block__name">
+                                    <span>2.Tarix toplamağa başlayın </span>
+                                </div>
+                                <div class="filter-block__show">
+                                    <div>
+                                        <p class="m-0">
+                                            Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Sed,
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="main-post set-menu ">
+                        <div class="set-menu__header m-0">
+                            <span>Tarix haqqında istifadə</span>
+                        </div>
+
+
+
+                    </div>
+                    <div class="main-post set-menu ">
+                        <div class="set-menu__header">
+                            <span>Bilik bazasında tarix</span>
+                        </div>
+                        <div class="set-menu__body">
+
+                            <div class="set-menu__cart">
+                                <div class="row no-gutters">
+                                    <div class="col-4">
+                                        <div class="cart">
+                                            <h3>
+                                                tarix qazanma
+                                            </h3>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Assumenda architecto deserunt numquam. Doloremque, nulla
+                                                explicabo.
+                                            </p>
+                                            <div class="bg-primary"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="cart">
+                                            <h3>
+                                                tarix qazanma
+                                            </h3>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Assumenda architecto deserunt numquam. Doloremque, nulla
+                                                explicabo.
+                                            </p>
+                                            <div class="bg-danger"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="cart">
+                                            <h3>
+                                                tarix qazanma
+                                            </h3>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Assumenda architecto deserunt numquam. Doloremque, nulla
+                                                explicabo.
+                                            </p>
+                                            <div class="bg-success"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- rules -->
+        <div class="tab-el" id="tab4C">
+
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="main-post set-menu">
+
+                        <div class="set-menu__header justify-content-between">
+                            <span>
+                                Qaydalar
+                            </span>
+                            <div>
+                                <button class="accept-changes">
+                                    <img src="~/img/not-found/tag-btn.png"
+                                         alt=""><small>Tag yarat</small>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="set-menu__body">
+                            <div class="filter-block">
+                                <div class="filter-block__input">
+                                    <input placeholder="Axtar" class="block-input" type="text">
+                                    <button class="search">
+                                        <i class="fas fa-search" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                                <div class="filter-block__not-found">
+                                    <div>
+                                        <img src="~/img/not-found/rules.png" alt="rules">
+                                    </div>
+                                    <h5>Sizin qaydalarınız yoxdur</h5>
+                                    <p>
+                                        Qaydaları gündəlik işlərinizi özünüzə götürün.Məsələn müəyyən
+                                        filtrlərə gələn qeydləri avtomatik olaraq etiketləyə
+                                        bilərlər.Yoxsa təsir edən bir şəxsin göndərdiyi bir yazı barədə
+                                        sizi xəbərdar edəcəklər <a href="#">Ətraflı</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- tags -->
+        <div class="tab-el" id="tab5C">
+
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="main-post set-menu">
+
+                        <div class="set-menu__header justify-content-between">
+                            <span>
+                                Teglər
+                            </span>
+                            <div>
+                                <button class="accept-changes">
+                                    <img src="~/img/not-found/tag-btn.png"
+                                         alt=""><small>Tag yarat</small>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="set-menu__body">
+                            <div class="filter-block">
+                                <div class="filter-block__input">
+                                    <input placeholder="Axtar" class="block-input" type="text">
+                                    <button class="search">
+                                        <i class="fas fa-search" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                                <div class="filter-block__not-found">
+                                    <div>
+                                        <img src="~/img/not-found/tags.png" alt="tags">
+                                    </div>
+                                    <h5>Heç bir etiketiniz yoxdur</h5>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- integration -->
+        <div class="tab-el" id="tab6C">
+
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="main-post set-menu ">
+                        <div class="set-menu__header justify-content-between">
+                            <span>
+                                İnteqrasiya
+                            </span>
+
+                        </div>
+                        <div class="set-menu__body">
+
+                            <div class="filter-block">
+                                <div class="filter-block__integr">
+                                    <div class="d-flex">
+                                        <div class="filter-block__integr-img">
+                                            <img src="~/img/integr/7-layers.png" alt="telegram">
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <span class="filter-block__integr-title">Telegram</span>
+                                            <span class="filter-block__integr-title_link">
+                                                Telegramda
+                                                söhbət edin.
+                                                <a href="#">Ətraflı</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button class="accept-changes">
+                                            <img src="~/img/not-found/tag-btn.png" alt=""><small>
+                                                Tag
+                                                yarat
+                                            </small>
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="filter-block">
+                                <div class="filter-block__integr">
+                                    <div class="d-flex">
+                                        <div class="filter-block__integr-img">
+                                            <img src="~/img/integr/5-layers (4).png" alt="slack">
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <span class="filter-block__integr-title">Slack</span>
+                                            <span class="filter-block__integr-title_link">
+                                                Slack və ya
+                                                daha kiçik bir ticarət əlaqələndiricisində.
+                                                <a href="#">Ətraflı</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button class="accept-changes">
+                                            <img src="~/img/not-found/tag-btn.png" alt=""><small>
+                                                Tag
+                                                yarat
+                                            </small>
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- kicked -->
+        <div class="tab-el" id="tab7C">
+
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="main-post set-menu">
+                        <ul class="tabs-sec">
+                            <li class="tab-link current" data-tab="tab-1">Müəlliflər</li>
+                            <li class="tab-link" data-tab="tab-2">Nəşr yerləri </li>
+                            <li class="tab-link" data-tab="tab-3">Mənbələr </li>
+
+                        </ul>
+                        <!-- first-element -->
+                        <div id="tab-1" class="tab-content current">
+                            <div class="main-post set-menu">
+
+
+                                <div class="set-menu__body">
+                                    <div class="filter-block">
+                                        <div class="filter-block__input">
+                                            <input placeholder="Axtar" class="block-input" type="text">
+                                            <button class="search">
+                                                <i class="fas fa-search" aria-hidden="true"></i>
+                                            </button>
+                                        </div>
+                                        <div class="filter-block__not-found">
+                                            <div>
+                                                <img src="~/img/not-found/authors.png" alt="authors">
+                                            </div>
+                                            <h5>Müəllif yoxudr</h5>
+                                            <p>Deyəsən müəllifləri hələ kənarlaşdırmadınız</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- first-element end -->
+                        <!-- second-element -->
+
+                        <div id="tab-2" class="tab-content">
+                            <div class="main-post set-menu">
+
+
+                                <div class="set-menu__body">
+                                    <div class="filter-block">
+                                        <div class="filter-block__input">
+                                            <input placeholder="Axtar" class="block-input" type="text">
+                                            <button class="search">
+                                                <i class="fas fa-search" aria-hidden="true"></i>
+                                            </button>
+                                        </div>
+                                        <div class="filter-block__not-found">
+                                            <div>
+                                                <img src="~/img/not-found/copy.png" alt="copy">
+                                            </div>
+                                            <h5>Nəşr yeri yoxdur</h5>
+                                            <p>Görünən budur ki, hələ nəşr yerini istisna etməmisiniz</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- second-element end-->
+                        <!-- third-element -->
+
+                        <div id="tab-3" class="tab-content">
+                            <div class="main-post set-menu">
+
+
+                                <div class="set-menu__body">
+                                    <div class="filter-block">
+                                        <div class="filter-block__input">
+                                            <input placeholder="Axtar" class="block-input" type="text">
+                                            <button class="search">
+                                                <i class="fas fa-search" aria-hidden="true"></i>
+                                            </button>
+                                        </div>
+                                        <div class="filter-block__not-found">
+                                            <div>
+                                                <img src="~/img/not-found/source.png" alt="source">
+                                            </div>
+                                            <h5>Mənbə  yoxdur</h5>
+                                            <p>Deyəsən mənbələri hələ istisna etməmisiniz</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- third-element end -->
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- delete -->
+        <div class="tab-el" id="tab8C">
+
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="main-post set-menu ">
+                        <div class="set-menu__header justify-content-between">
+                            <span>
+                                Bütün məlumatları silin
+                            </span>
+                            <div>
+                                <button class="accept-changes">
+                                    <img src="~/img/delete.png"
+                                         alt="delete"><small>silin</small>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="set-menu__body">
+                            <div class="filter-block__name">
+                                <span class="delet-title">
+                                    Bu əməliyyat bu mövzuya dair bütün istinadları siləcəkdir.
+                                </span>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="main-post set-menu ">
+                        <div class="set-menu__header justify-content-between">
+                            <span>
+                                Bütün məlumatları silin
+                            </span>
+                            <div>
+                                <button class="accept-changes">
+                                    <img src="~/img/delete.png"
+                                         alt="delete"><small>silin</small>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="set-menu__body">
+
+                            <div class="filter-block__name">
+                                <span class="delet-title">
+                                    Bu əməliyyat bu mövzuya dair bütün istinadları siləcəkdir.
+                                </span>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+</main>

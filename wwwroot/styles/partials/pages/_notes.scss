@@ -1,0 +1,367 @@
+.logo-monitoring {
+    padding: 10px 0;
+    background-color: $header-gray;
+}
+.upper-nav {
+    background-color: $body-blue;
+    font-family: Estre;
+    font-size: 18px;
+    padding: 10px 0;
+    color: $white;
+    &__back {
+        a {
+            color: $white;
+        }
+    }
+    &__name {
+        display: flex;
+        font-size: 1.38em;
+        span {
+            margin-left: 10px;
+        }
+    }
+    &__user {
+        display: flex;
+        div {
+            width: 30px;
+            border-radius: 100%;
+            border: 2px solid #5987ff;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+.bottom-nav {
+    padding: 30px 0;
+    background-color: $white;
+    &__date-time {
+        padding: 0 10px;
+        input {
+            width: 100%;
+            margin-left: 34px;
+            background-color: transparent;
+            color: #3e5e85;
+            border: none;
+            font-size: 13px;
+        }
+    }
+    &__filter {
+        padding: 0 10px;
+
+        .nav-frame {
+            justify-content: end;
+        }
+        ul {
+            margin-left: 30px;
+            li {
+                display: flex;
+                background-color: #f2f2f3;
+                padding: 0 5px;
+                border-radius: 5px;
+                margin-left: 10px;
+                span {
+                    font-weight: bold;
+                }
+                div {
+                    color: #577394;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+    &__feautures {
+        ul {
+            display: flex;
+            li {
+                position: relative;
+                margin-right: 10px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                &:hover{
+                    div{
+                        opacity: 1;
+                    }
+                }
+                div {
+                    transition:0.3s;
+                    position: absolute;
+                    background-color: #5b86be;
+                    color: $white;
+                    font-size: 9px;
+                    padding: 3px 5px;
+                    border-radius: 5px;
+                    top: -100%;
+                    display: flex;
+                    transform: translateX(-50%);
+                    left: 50%;
+                    justify-content: center;
+                    white-space: nowrap;
+                    opacity: 0;
+                    span {
+                        text-align: center;
+
+                        position: relative;
+                        &:before {
+                            position: absolute;
+                            content: "";
+                            width: 0;
+
+                            bottom: -100%;
+                            transform: translateX(-50%);
+                            left: 50%;
+
+                            bottom: -100%;
+                            height: 0;
+                            border-style: solid;
+                            border-width: 10px 5px 0 5px;
+                            border-color: #5b86be transparent transparent transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.nav-frame {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    border: 1px SOLID #dce9f4;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 13px;
+
+    > div {
+        position: absolute;
+        left: 10px;
+        &:after {
+            content: "";
+            top: -7px;
+            left: 24px;
+            height: 33px;
+            background-color: #dce9f4;
+            width: 1px;
+            position: absolute;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+.drop-menu {
+    height: 100vh;
+    width: 100%;
+    background-color: $body-blue;
+
+    &__header {
+        padding: 15px 25px;
+        background-color: #425ab7;
+        span {
+            color: $white;
+        }
+    }
+    &__list {
+    }
+}
+main {
+    background-color: $body-gray;
+
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.left-side {
+    background-color: $white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 10px;
+    &__logo {
+        border: 1px solid #b0cde7;
+        border-radius: 5px;
+    }
+    &__navigation {
+        margin: 20px 0 0 0;
+        ul {
+            position: relative;
+
+            &:after {
+                content: "";
+                display: block;
+                width: 100%;
+                height: 2px;
+                bottom: -5px;
+                position: absolute;
+                background-color: $body-gray;
+            }
+            &.show-tags {
+                &:before {
+                    right: 0;
+                }
+            }
+            &:before {
+                content: "";
+                display: block;
+                width: 50%;
+                height: 2px;
+                bottom: -5px;
+                position: absolute;
+                background-color: $text-blue;
+                z-index: 1;
+            }
+            li {
+                .active-side {
+                    color: $text-blue;
+                }
+                a {
+                    font-size: $px-14;
+                    color: #97aec8;
+                }
+            }
+        }
+    }
+    &__list {
+        margin-top: 30px;
+        &-tags {
+            &.show-tags {
+                display: block;
+            }
+            display: none;
+        }
+        &-words {
+            &.show-tags {
+                display: none;
+            }
+            display: block;
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        .list-title {
+            &__count {
+                background-color: $body-gray;
+                font-size: 9px;
+                padding: 3px;
+                border-radius: 7px;
+                font-weight: bold;
+            }
+            label {
+                font-size: $px-14;
+                font-weight: bold;
+                margin: 0;
+            }
+            progress {
+                width: 100%;
+                height: 5px;
+            }
+        }
+    }
+}
+.main-post {
+    background-color: #ffff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 15px 20px 15px;
+    &__header {
+        padding-bottom: 30px;
+        border-bottom: 1px solid #fafafa;
+        .post-user {
+            .user-name {
+                font-size: $px-18;
+                font-weight: bold;
+                color: $text-black;
+                margin-left: 5px;
+            }
+            div {
+                width: 35px;
+                border-radius: 100%;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .post-date {
+            font-size: $px-13;
+            font-weight: bold;
+
+            &__type {
+                color: $text-blue;
+            }
+            &__month,
+            p,
+            &__time {
+                color: $post-color;
+            }
+        }
+        .post-location {
+            span {
+                font-size: $px-13;
+                font-weight: bold;
+                color: $post-color;
+                margin-left: 5px;
+            }
+        }
+        .post-links {
+            ul {
+                justify-content: flex-end;
+                li {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+    &__body {
+        padding: 30px 0;
+        border-bottom: 1px solid #fafafa;
+
+        .post-img {
+            width: 100%;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            overflow: hidden;
+            margin-left: 20px;
+            img {
+                width: 100%;
+            }
+        }
+        .post-title {
+            p {
+                font-size: $px-13;
+                color: $text-black;
+                text-align: justify;
+            }
+        }
+    }
+    &__footer {
+        .like {
+            svg {
+                fill: $text-blue;
+            }
+        }
+        .post-actions {
+            ul {
+                li {
+                    margin-left: 28px;
+                    i{
+                        color:#97aec8;
+                    }
+                    span {
+                        font-size: 13px;
+                        font-weight: bold;
+                        color: $post-color;
+                        margin-left: 5px;
+                    }
+                    &:first-child {
+                        margin-left: 0px;
+                    }
+                }
+            }
+        }
+    }
+}

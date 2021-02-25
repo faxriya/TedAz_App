@@ -1,0 +1,89 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "";
+
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>@ViewData["Title"] - TedAz</title>
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" />*@
+
+    <link href="~/styles/css/style.css" rel="stylesheet" />
+    <title>Tedaz</title>
+</head>
+<body>
+    <div class="container h-100 ">
+        <div class="row h-100 justify-content-center align-items-center">
+            <div class="col-md-4 ">
+                <div class="sign-form">
+                    <div class="sign-form__header">
+                        <p>Sign Up</p>
+                        <div class="sign-form__logo">
+                            <img src="~/img/5-layers.png" alt="">
+                        </div>
+                    </div>
+                    <div class="sign-form__body">
+
+                        <form id="main-form" action="post">
+                            <ul>
+                                <li>
+
+                                    <input placeholder="First Name" type="text" id="name" name="name">
+                                </li>
+                                <li>
+
+                                    <input placeholder="Last Name" type="text" id="lastname" name="lastname">
+                                </li>
+                                <li>
+
+                                    <input placeholder="Email" type="email" id="email" name="email">
+                                </li>
+                            </ul>
+
+                        </form>
+                    </div>
+
+                    <div class="accept-privacy">
+                        <div class="accept-privacy__check">
+                            <img src="~/img/check-mark.png" alt="checked">
+                        </div>
+                        <span>
+                            I accept the
+                        </span>
+                        <a href="#">
+                            Terms of Use & Privacy Policy
+                        </a>
+                    </div>
+                    <button form="main-form" class="sign-form-button">
+                        <img src="~/img/5-layers (1).png" alt="accept">
+                    </button>
+                    <div class="sign-form__question">
+                        <p>
+                            Already have an account?
+                        </p>
+                        <a asp-controller="Home" asp-action="SignIn">Sign In</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="~/js/extra/m-jquery.min.js"></script>
+    <script src="~/js/extra/m-popper.min.js"></script>
+    <script src="~/js/extra/m-bootstrap.min.js"></script>
+    <script src="~/js/extra/bootstrap-select.min.js"></script>
+    <script src="~/js/extra/date-time-picker.js"></script>
+
+
+    <!-- <script src="js/main/script.js"></script> -->
+</body>
+</html>

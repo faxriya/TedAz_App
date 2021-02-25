@@ -1,0 +1,22 @@
+.change-password-popup {
+  .form-group {
+    margin-bottom: 5px;
+    position: relative;
+    &:hover {
+      .change-password-popup__show-pass {
+        opacity: 1;
+      }
+    }
+  }
+  &__show-pass {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    opacity: 0;
+    transition: all 0.3s;
+
+    i {
+      color: $sColor;
+    }
+  }
+}

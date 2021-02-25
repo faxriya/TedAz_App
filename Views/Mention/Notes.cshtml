@@ -1,0 +1,155 @@
+﻿@{ ViewData["Title"] = "Qeydlər";
+    ViewData["Image"] = "/img/header-logo/notes.png"; }
+
+<header class="header-main">
+    <div class="container-fluid p-0">
+        <nav>
+            @await Html.PartialAsync("../Shared/_HeaderMenu", ViewData)
+            @await Html.PartialAsync("../Shared/_BottomNavMenu", null)
+        </nav>
+    </div>
+</header>
+<style>
+    .download {
+        display: block !important;
+    }
+</style>
+<div class="content-loader">
+    <div class="d-flex align-items-center">
+        <span>119</span>
+        <p>yeni mesaj</p>
+        <img src="~/img/loader.png" alt="loader">
+    </div>
+</div>
+<main role="main">
+    <div class="row no-gutters">
+        <div class="col-2 ">
+            <!-- left-side -->
+            <div class="left-side">
+                <div class="left-side__logo j-center">
+                    <div>
+                        <img src="~/img/side-header.png" alt="">
+                    </div>
+                </div>
+                <div class="left-side__navigation">
+                    <ul class="j-between">
+                        <li>
+                            <a class="active-side" side='words' href="#">
+                                Sözlər
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" side='tags'>
+                                Tags
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="left-side__list">
+                    <ul class="left-side__list-words">
+                    </ul>
+                    <ul class="left-side__list-tags">
+                        @*<li>
+                                <div class="list-title">
+                                    <div class="j-between align-items-center">
+                                        <label>Agdam</label>
+                                        <div class="list-title__count">
+                                            23453
+                                        </div>
+                                    </div>
+                                    <progress class="progress" value="32" max="100"> 32% </progress>
+                                </div>
+                            </li>
+                        *@
+                    </ul>
+                </div>
+            </div>
+            <!-- left-side end-->
+        </div>
+        <div id="table-body" class="col-10 post-list ">
+
+        </div>
+    </div>
+</main>
+
+@section Scripts{
+    <script src="~/js/extra/pagination-settings.js"></script>
+    <script src="~/js/extra/notes-data.js"></script>
+    @*<script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/notifications/notification.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>*@
+
+    <script>
+        //"use strict";
+
+        $(".send-date").click(function () {
+
+            let type = $(this).data('val');
+
+            var data = {
+                fromdate: "",
+                todate: "",
+                reporttype: ""
+            }
+            if ($('#daterange').val().length == 10 || $('#daterange').val().length < 10) {
+                var date = new Date($('#daterange').val());
+                date.setMonth(date.getMonth() - 1);
+                var dd = date.getDate();
+                var mm = date.getMonth() + 1;
+                var yyyy = date.getFullYear();
+                if (dd < 10) {
+                    dd = '0' + dd;
+                }
+
+                if (mm < 10) {
+                    mm = '0' + mm;
+                }
+                prevMonth = mm + '.' + dd + '.' + yyyy;
+                data = {
+                    fromdate: prevMonth,
+                    todate: $('#daterange').val(),
+                    reporttype: type
+
+                }
+
+            }
+            else {
+                data = {
+                    fromdate: $('#daterange').attr("from"),
+                    todate: $('#daterange').attr("to"),
+                    reporttype: type
+
+                }
+            }
+            console.log(data)
+            $.ajax({
+                url: `/Export/reportajax`,
+                type: 'POST',
+                data: data,
+                success: function (respData) {
+                    console.log(respData)
+
+                    $(".report-drop").removeClass("show-drop")
+                    $(".response-drop").addClass("show-drop")
+                    $(".show-download-response").html(respData)
+                },
+                error: function (resp) {
+                    console.error(resp);
+                }
+            })
+        })
+                            //$.ajax({
+                            //    url: `/Export/reportajax`,
+                            //    type: 'POST',
+                            //    success: function (data) {
+                            //        $(".show-download-response").html(data)
+
+                            //    },
+                            //    error: function (resp) {
+                            //        console.error(resp);
+                            //    }
+                            //})
+
+    </script>
+
+}

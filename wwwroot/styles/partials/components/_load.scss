@@ -1,0 +1,16 @@
+.content-loader{
+    position: absolute;
+    background-color: #5987ff;
+    border-radius:25px;
+    padding:3px 40px;
+    color:$white;
+    top: 35%;
+    z-index: 99;
+    left: 50%;
+    transform: translateX(-50%);
+    div{
+        >*{
+            margin-right:5px;
+        }
+    }
+}
